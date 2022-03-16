@@ -27,7 +27,8 @@ the result be tabular data, that can be read by Pandas.
 In a large collection, computation may take a long time, the resulting
 data file may be large, and these calculations may be awkward. Depending
 on the need for completeness, large collections may be handled by
-drawing random samples.
+drawing random samples. That is what I did for each of the collections
+included in this repo, 50k random samples were selected.
 
 If you decide to use iwdescr, the correct invocation would be
 ```
@@ -164,3 +165,9 @@ plot_collections.py --quantile 0.01
 
 This will display the plots on the terminal. Add a `--stem` argument and instead
 plots will be written to .png files.
+
+A typical plot might look like
+
+![natoms](https://github.com/ianwatson/molecular_property_profile/images/demo_natoms.png)
+
+which shows differing heavy atom counts across three different collections.
