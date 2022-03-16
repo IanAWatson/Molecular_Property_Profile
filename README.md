@@ -6,12 +6,12 @@ Answering questions like:
 
 * How does the mean atom count differ between the collections
 * Does this collection have more rotatable bonds
-* How does `arbitrary molecular property` differ
+* How does `arbitrary molecular property` differ between collections?
 
 The tool works in three phases.
 
-1 Generate molecular features for all collections.
-2 Use `generate_profile` to abstract the raw feature data into
+1. Generate molecular features for all collections.
+2. Use `generate_profile` to abstract the raw feature data into
  `Descriptor` proto form. This stores a summary of the data.
 3. Use `plot_collections` to generate plots that superimpose
 different distributions.
@@ -61,25 +61,25 @@ for calculated features in a file is via something like
 (for a collection called `rand`):
 
 ```
-#python generate_profile.py --read_descriptions=column_descriptions.txt
-                            --collection rand
-                            --stem RAND
-                            --color=red
-                            rand.dat
+python generate_profile.py --read_descriptions=column_descriptions.txt
+                           --collection rand
+                           --stem RAND
+                           --color=red
+                           rand.dat
 ```
 
-This processes all columns in `column_descriptions.txt` and will generate
+This processes all columns in `feature_descriptions.txt` and will generate
 summary data for each column. Each feature is written to a separate file
-of the form `<stem>_<feature_name>.txt'
+of the form `\<stem\>_\<feature_name\>.txt'
 
 Precomputed files for Chembl, Pubchem and Enamine HTS are included.
 
-Options:
+## Options:
 
-### read_descriptions
+### feature_descriptions
 The name of an existing file that contains feature descriptions.
 During generation of these protos, certain information must be specified.
-The `column_descriptions.txt` can be used.
+The file `column_descriptions.txt` can be used.
 
 ### collection
 The name of the collection, likely something like Pubchem, Chembl,
@@ -92,8 +92,8 @@ same as the collection name.
 ### color
 Using a tool like this over many years showed the value of using consistent
 colors for different collections - so that whenever people see a graph they know
-that the green curve is Chembl. Select colors that seem meaningful and stick to
-them.
+that the green curve is Chembl, red is the color for... 
+Select colors that seem meaningful and stick to them.
 
 ### sep
 This is passed to pd.read_csv. The default is space. Expect trouble if you
@@ -109,20 +109,11 @@ The individual collections previously profiled will all have different
 X ranges. It is the job of plot_collections to line up those different
 distributions so they can all be shown on the same scale.
 
-If you have generated a bunch of distributions, you can automate
-generating the .png files with something like
-
-```
-for feature in amw natoms htroaf ; do python plot_collections.py --stem STEM "CHEMBL_w_${feature}.dat" "RAND_w_${feature}.dat" "PUBCHEM_w_${feature}.dat" ; done
-```
-
-Or some clever wildcarding can be used to process all features.
-
 The tool supports some options
 
 ### stem
-Generate a .png file of the form `<stem>_<feature>.png` rather than displaying
-on the screen.
+Instead of showing plots on the terminal, write them to disk.
+Files will be of the form `\<stem\>_\<feature\>.png`.
 
 ### X and Y
 Specify a plot size in inches, `--X 6.0 --Y 8.0`. Either omit both, or they
@@ -134,32 +125,41 @@ all collections are displayed. So, if there were a collection that had some
 very large molecules, it might be clearer to see the relevant molecules
 via something like `-xmin 0 -xmax 60` when viewing heavy atom distributions.
 
+### quantile
+Many collections contain outlier type molecules, and if the plot range
+is extended to include those, it may be hard to discern important
+differences elsewhere due to compression. Use this option to chop
+off upper and lower quantiles from what is displayed.
+
 # Summary
 A complete workflow, for the collection `foo` might look like
 ```
 
 iwdescr -i ICTE -i smi -g all -l -O all foo.smi > foo.dat
 
-# Check for errors
+# Check for errors, file should be tabular, same number of rows
+# as `foo.smi`
+# Generate feature profiles in the FOO directory.
 
-python generate_profile.py --read_descriptions=column_descriptions.txt
+mkdir FOO
+python generate_profile.py --feature_descriptions=column_descriptions.txt
                            --collection foo
-                           --stem FOO
+                           --stem FOO/FOO
                            --color=red
                             foo.dat
 
-# Check to make sure all FOO*.dat files are produced
+# Check to make sure all FOO*.dat files are produced, one for each feature
+# in `column_descriptions.txt`.
 
 # Generate comparison plots for rotatable bonds.
 
-python plot_collections.py FOO_w_rotbond.dat CHEMBL_w_rotbond.dat ENAMINE_w_rotbond.dat
+python plot_collections.py FOO/FOO_w_rotbond.dat CHEMBL/CHEMBL_w_rotbond.dat ENAMINE/ENAMINE_w_rotbond.dat
 
 # Or generate plots for all features, based on what is in `column_descriptions.txt`
 
-plot_collections.py --quantile 0.01 --collection FOO,CHEMBL,ENAMINE --feature_description column_descriptions.txt
-
-# Note the quantile argument to remove extreme outliers, which can
-# make interpretation more difficult.
+plot_collections.py --quantile 0.01
+                    --collection FOO/FOO,CHEMBL/CHEMBL,ENAMINE/ENAMINE
+                    --feature_description column_descriptions.txt
 ```
 
 This will display the plots on the terminal. Add a `--stem` argument and instead
