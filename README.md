@@ -4,8 +4,8 @@ A common need when examining collections of molecules is to be able
 to compare the new molecules with one or more existing collections.
 Answering questions like:
 
-* How does the mean atom count differ between the collections
-* Does this collection have more rotatable bonds
+* How does the mean atom count differ between these collections?
+* Does this collection have more rotatable bonds?
 * How does `arbitrary molecular property` differ between collections?
 
 The tool works in three phases.
@@ -22,7 +22,7 @@ can be used. It must have a header. I have been using
 [iwdescr](https://github.com/IanAWatson/LillyMol-4.0-Bazel/blob/master/src/Molecule_Tools/iwdescr.cc)
 which generates over 200 simple, and usually interpretable molecular
 descriptors. But any such tool can be used. All that is needed is that
-the result be tabular data, that can be read by Pandas.
+the result be tabular data, and that can be read by Pandas.
 
 In a large collection, computation may take a long time, the resulting
 data file may be large, and these calculations may be awkward. Depending
@@ -41,7 +41,7 @@ fail, which would otherwise terminate the computation.
 
 ## Step 2
 Convert these raw data files into protocol buffer form. The Descriptor
-[proto](https...)
+[proto](https://github.com/IanAWatson/Molecular_Property_Profile/blob/9b99ecb4cd66fdacd17be7f45849a8388d6471a5/collection.proto#L40)
 stores summary information about a feature, together with a description,
 summary stats, and sampled values.
 
@@ -114,7 +114,7 @@ The tool supports some options
 
 ### stem
 Instead of showing plots on the terminal, write them to disk.
-Files will be of the form `\<stem\>_\<feature\>.png`.
+Files will be of the form `<stem>_<feature>.png`.
 
 ### X and Y
 Specify a plot size in inches, `--X 6.0 --Y 8.0`. Either omit both, or they
@@ -166,8 +166,19 @@ plot_collections.py --quantile 0.01
 This will display the plots on the terminal. Add a `--stem` argument and instead
 plots will be written to .png files.
 
-A typical plot might look like
+A typical plot for discrete values might look like
 
 ![natoms](./Images/demo_natoms.png)
 
-which shows differing heavy atom counts across three different collections.
+which shows differing heavy atom counts across three different collections. The
+legends show the mean for each collection, and there are small bars across the top
+of the plot at the means.
+
+For continuous features a typical plot might look like
+
+![amw](./Images/demo_amw.png)
+
+here the small bars for the means are at the bottom of the plot.
+
+Molecular Property Profiles are an easy means of understanding the
+macro properties of one collection compared to another.

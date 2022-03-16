@@ -26,6 +26,8 @@ from scipy import stats
 import collection_pb2
 
 # The max number of values that will be written
+# Note that if you change this, you will need to
+# regenerate all existing data files.
 _MAX_FLOAT_POINTS = 100
 
 FLAGS = flags.FLAGS
@@ -38,6 +40,7 @@ flags.DEFINE_string('stem', "MPP", "name stem for files produced")
 flags.DEFINE_string('sep', " ", "Input token separator, default space")
 flags.DEFINE_boolean('verbose', False, "verbose output")
 
+# The quantiles that will be stored in the output proto file.
 quantiles = [0.01, 0.05, 0.10, 0.50, 0.90, 0.95, 0.99]
 
 def usage(ret):
@@ -54,10 +57,11 @@ def update_description(proto, collection: str,
                        feature_name:str,
                        feature_descriptions: Dict[str, str],
                        line_color: str):
-  """based on `name` update the description in `proto`.
+  """Update the description in `proto`.
 
   Args:
     proto:
+    collection:
     feature_names:
     feature_descriptions
     line_color:
@@ -93,9 +97,8 @@ def set_numeric_values(data: np.array,
   """Update the numeric statistics in `proto` based on `data`.
 
   Args:
-    data:
-    proto:
-  Returns:
+    data: raw data
+    proto: destination of data.
   """
   proto.minval = float(np.min(data))
   proto.maxval = float(np.max(data))
@@ -120,7 +123,6 @@ def profile_feature(data:np.array,
     verbose:
   Returns:
   """
-  print(f"Processing {feature_name}")
   if verbose:
     print(feature_name, stats.describe(data))
   result = collection_pb2.Descriptor()
@@ -152,9 +154,9 @@ def profile_feature(data:np.array,
   return result
 
 def generate_feature_profile(data: pd.DataFrame,
-                             collection: str,
                              feature_name: str,
                              feature_descriptions: Dict[str, str],
+                             collection: str,
                              collection_color: str,
                              name_stem: str,
                              verbose: bool):
@@ -164,6 +166,8 @@ def generate_feature_profile(data: pd.DataFrame,
     data: raw data
     feature_name: name of `data`
     feature_descriptions: -> more descriptive feature names
+    collection:
+    collection_color:
     name_stem: stem for file to be created
     verbose:
   """
@@ -237,7 +241,7 @@ def generate_profile(args):
       sys.exit(1)
 
   for i, name in enumerate(feature_name):
-    generate_feature_profile(data, collection, name, feature_descriptions,
+    generate_feature_profile(data, name, feature_descriptions, collection,
                              collection_color, name_stem, verbose)
 
 if __name__ == "__main__":
