@@ -1,0 +1,93 @@
+description {
+  feature_name: "w_ncon1"
+  description: "Number of atoms with 1 connection"
+  plot_title: "Number of atoms with 1 connection"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 13.0
+mean: 4.11056
+median: 4.0
+quantile {
+  quantile: 0.01
+  value: 1.0
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 4.0
+}
+quantile {
+  quantile: 0.9
+  value: 6.0
+}
+quantile {
+  quantile: 0.95
+  value: 7.0
+}
+quantile {
+  quantile: 0.99
+  value: 9.0
+}
+int_values {
+  count: 322
+}
+int_values {
+  value: 1
+  count: 2557
+}
+int_values {
+  value: 2
+  count: 6457
+}
+int_values {
+  value: 3
+  count: 9965
+}
+int_values {
+  value: 4
+  count: 11021
+}
+int_values {
+  value: 5
+  count: 9194
+}
+int_values {
+  value: 6
+  count: 5773
+}
+int_values {
+  value: 7
+  count: 2963
+}
+int_values {
+  value: 8
+  count: 1188
+}
+int_values {
+  value: 9
+  count: 407
+}
+int_values {
+  value: 10
+  count: 127
+}
+int_values {
+  value: 11
+  count: 21
+}
+int_values {
+  value: 12
+  count: 4
+}
+int_values {
+  value: 13
+  count: 1
+}

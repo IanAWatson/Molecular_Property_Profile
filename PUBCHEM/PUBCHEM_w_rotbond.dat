@@ -1,0 +1,172 @@
+description {
+  feature_name: "w_rotbond"
+  description: "Number of rotatable bonds"
+  plot_title: "Number of rotatable bonds"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 34.0
+mean: 5.53974
+median: 5.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 2.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 5.0
+}
+quantile {
+  quantile: 0.9
+  value: 9.0
+}
+quantile {
+  quantile: 0.95
+  value: 10.0
+}
+quantile {
+  quantile: 0.99
+  value: 14.0
+}
+int_values {
+  count: 789
+}
+int_values {
+  value: 1
+  count: 1572
+}
+int_values {
+  value: 2
+  count: 3392
+}
+int_values {
+  value: 3
+  count: 5674
+}
+int_values {
+  value: 4
+  count: 7354
+}
+int_values {
+  value: 5
+  count: 7841
+}
+int_values {
+  value: 6
+  count: 7265
+}
+int_values {
+  value: 7
+  count: 5781
+}
+int_values {
+  value: 8
+  count: 4074
+}
+int_values {
+  value: 9
+  count: 2567
+}
+int_values {
+  value: 10
+  count: 1558
+}
+int_values {
+  value: 11
+  count: 805
+}
+int_values {
+  value: 12
+  count: 512
+}
+int_values {
+  value: 13
+  count: 265
+}
+int_values {
+  value: 14
+  count: 167
+}
+int_values {
+  value: 15
+  count: 110
+}
+int_values {
+  value: 16
+  count: 72
+}
+int_values {
+  value: 17
+  count: 62
+}
+int_values {
+  value: 18
+  count: 30
+}
+int_values {
+  value: 19
+  count: 28
+}
+int_values {
+  value: 20
+  count: 18
+}
+int_values {
+  value: 21
+  count: 16
+}
+int_values {
+  value: 22
+  count: 7
+}
+int_values {
+  value: 23
+  count: 8
+}
+int_values {
+  value: 24
+  count: 8
+}
+int_values {
+  value: 25
+  count: 3
+}
+int_values {
+  value: 26
+  count: 5
+}
+int_values {
+  value: 27
+  count: 4
+}
+int_values {
+  value: 28
+  count: 1
+}
+int_values {
+  value: 29
+  count: 1
+}
+int_values {
+  value: 30
+  count: 2
+}
+int_values {
+  value: 31
+  count: 2
+}
+int_values {
+  value: 32
+  count: 5
+}
+int_values {
+  value: 34
+  count: 2
+}

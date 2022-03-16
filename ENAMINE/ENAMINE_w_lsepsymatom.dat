@@ -1,0 +1,134 @@
+description {
+  feature_name: "w_lsepsymatom"
+  description: "Longest separation between symmetric atoms"
+  plot_title: "Longest separation between symmetric atoms"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 24.0
+mean: 1.7119
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 2.0
+}
+quantile {
+  quantile: 0.95
+  value: 4.0
+}
+quantile {
+  quantile: 0.99
+  value: 6.0
+}
+int_values {
+  count: 12027
+}
+int_values {
+  value: 1
+  count: 889
+}
+int_values {
+  value: 2
+  count: 33355
+}
+int_values {
+  value: 3
+  count: 451
+}
+int_values {
+  value: 4
+  count: 2360
+}
+int_values {
+  value: 5
+  count: 7
+}
+int_values {
+  value: 6
+  count: 484
+}
+int_values {
+  value: 7
+  count: 17
+}
+int_values {
+  value: 8
+  count: 256
+}
+int_values {
+  value: 9
+  count: 4
+}
+int_values {
+  value: 10
+  count: 47
+}
+int_values {
+  value: 11
+  count: 5
+}
+int_values {
+  value: 12
+  count: 17
+}
+int_values {
+  value: 13
+  count: 6
+}
+int_values {
+  value: 14
+  count: 17
+}
+int_values {
+  value: 15
+  count: 12
+}
+int_values {
+  value: 16
+  count: 13
+}
+int_values {
+  value: 17
+  count: 8
+}
+int_values {
+  value: 18
+  count: 10
+}
+int_values {
+  value: 19
+  count: 5
+}
+int_values {
+  value: 20
+  count: 3
+}
+int_values {
+  value: 21
+  count: 1
+}
+int_values {
+  value: 22
+  count: 3
+}
+int_values {
+  value: 23
+  count: 2
+}
+int_values {
+  value: 24
+  count: 1
+}

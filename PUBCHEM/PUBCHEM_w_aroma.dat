@@ -1,0 +1,171 @@
+description {
+  feature_name: "w_aroma"
+  description: "Number of aromatic atoms"
+  plot_title: "Number of aromatic atoms"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 36.0
+mean: 12.55356
+median: 12.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+  value: 6.0
+}
+quantile {
+  quantile: 0.5
+  value: 12.0
+}
+quantile {
+  quantile: 0.9
+  value: 21.0
+}
+quantile {
+  quantile: 0.95
+  value: 22.0
+}
+quantile {
+  quantile: 0.99
+  value: 26.0
+}
+int_values {
+  count: 3002
+}
+int_values {
+  value: 4
+  count: 1
+}
+int_values {
+  value: 5
+  count: 998
+}
+int_values {
+  value: 6
+  count: 7891
+}
+int_values {
+  value: 7
+  count: 1
+}
+int_values {
+  value: 8
+  count: 22
+}
+int_values {
+  value: 9
+  count: 926
+}
+int_values {
+  value: 10
+  count: 1206
+}
+int_values {
+  value: 11
+  count: 3836
+}
+int_values {
+  value: 12
+  count: 12082
+}
+int_values {
+  value: 13
+  count: 211
+}
+int_values {
+  value: 14
+  count: 428
+}
+int_values {
+  value: 15
+  count: 2533
+}
+int_values {
+  value: 16
+  count: 2592
+}
+int_values {
+  value: 17
+  count: 3967
+}
+int_values {
+  value: 18
+  count: 4139
+}
+int_values {
+  value: 19
+  count: 482
+}
+int_values {
+  value: 20
+  count: 622
+}
+int_values {
+  value: 21
+  count: 1620
+}
+int_values {
+  value: 22
+  count: 1228
+}
+int_values {
+  value: 23
+  count: 852
+}
+int_values {
+  value: 24
+  count: 491
+}
+int_values {
+  value: 25
+  count: 251
+}
+int_values {
+  value: 26
+  count: 187
+}
+int_values {
+  value: 27
+  count: 194
+}
+int_values {
+  value: 28
+  count: 83
+}
+int_values {
+  value: 29
+  count: 49
+}
+int_values {
+  value: 30
+  count: 45
+}
+int_values {
+  value: 31
+  count: 25
+}
+int_values {
+  value: 32
+  count: 24
+}
+int_values {
+  value: 33
+  count: 1
+}
+int_values {
+  value: 34
+  count: 8
+}
+int_values {
+  value: 35
+  count: 2
+}
+int_values {
+  value: 36
+  count: 1
+}

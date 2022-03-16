@@ -1,0 +1,64 @@
+description {
+  feature_name: "w_nrings6"
+  description: "Number of 6 membered rings"
+  plot_title: "Number of 6 membered rings"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 6.0
+mean: 1.90736
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 1.0
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 3.0
+}
+quantile {
+  quantile: 0.95
+  value: 3.0
+}
+quantile {
+  quantile: 0.99
+  value: 4.0
+}
+int_values {
+  count: 2395
+}
+int_values {
+  value: 1
+  count: 14346
+}
+int_values {
+  value: 2
+  count: 21154
+}
+int_values {
+  value: 3
+  count: 9917
+}
+int_values {
+  value: 4
+  count: 1984
+}
+int_values {
+  value: 5
+  count: 197
+}
+int_values {
+  value: 6
+  count: 7
+}

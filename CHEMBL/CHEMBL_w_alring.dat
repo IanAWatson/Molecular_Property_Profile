@@ -1,0 +1,94 @@
+description {
+  feature_name: "w_alring"
+  description: "Number of aliphatic rings"
+  plot_title: "Number of aliphatic rings"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 21.0
+mean: 1.01692
+median: 1.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 1.0
+}
+quantile {
+  quantile: 0.9
+  value: 2.0
+}
+quantile {
+  quantile: 0.95
+  value: 3.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 19356
+}
+int_values {
+  value: 1
+  count: 18363
+}
+int_values {
+  value: 2
+  count: 7840
+}
+int_values {
+  value: 3
+  count: 2469
+}
+int_values {
+  value: 4
+  count: 1138
+}
+int_values {
+  value: 5
+  count: 469
+}
+int_values {
+  value: 6
+  count: 214
+}
+int_values {
+  value: 7
+  count: 69
+}
+int_values {
+  value: 8
+  count: 49
+}
+int_values {
+  value: 9
+  count: 14
+}
+int_values {
+  value: 10
+  count: 11
+}
+int_values {
+  value: 11
+  count: 4
+}
+int_values {
+  value: 12
+  count: 2
+}
+int_values {
+  value: 15
+  count: 1
+}
+int_values {
+  value: 21
+  count: 1
+}

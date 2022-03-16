@@ -1,0 +1,125 @@
+description {
+  feature_name: "w_ncon3"
+  description: "Number of atoms with 3 connections"
+  plot_title: "Number of atoms with 3 connections"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 21.0
+mean: 8.04704
+median: 8.0
+quantile {
+  quantile: 0.01
+  value: 1.0
+}
+quantile {
+  quantile: 0.05
+  value: 3.0
+}
+quantile {
+  quantile: 0.1
+  value: 4.0
+}
+quantile {
+  quantile: 0.5
+  value: 8.0
+}
+quantile {
+  quantile: 0.9
+  value: 12.0
+}
+quantile {
+  quantile: 0.95
+  value: 13.0
+}
+quantile {
+  quantile: 0.99
+  value: 15.0
+}
+int_values {
+  count: 233
+}
+int_values {
+  value: 1
+  count: 426
+}
+int_values {
+  value: 2
+  count: 893
+}
+int_values {
+  value: 3
+  count: 1412
+}
+int_values {
+  value: 4
+  count: 2394
+}
+int_values {
+  value: 5
+  count: 3645
+}
+int_values {
+  value: 6
+  count: 5394
+}
+int_values {
+  value: 7
+  count: 6554
+}
+int_values {
+  value: 8
+  count: 7273
+}
+int_values {
+  value: 9
+  count: 6649
+}
+int_values {
+  value: 10
+  count: 5529
+}
+int_values {
+  value: 11
+  count: 3991
+}
+int_values {
+  value: 12
+  count: 2657
+}
+int_values {
+  value: 13
+  count: 1508
+}
+int_values {
+  value: 14
+  count: 860
+}
+int_values {
+  value: 15
+  count: 349
+}
+int_values {
+  value: 16
+  count: 148
+}
+int_values {
+  value: 17
+  count: 40
+}
+int_values {
+  value: 18
+  count: 26
+}
+int_values {
+  value: 19
+  count: 15
+}
+int_values {
+  value: 20
+  count: 3
+}
+int_values {
+  value: 21
+  count: 1
+}

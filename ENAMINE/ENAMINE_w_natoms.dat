@@ -1,0 +1,203 @@
+description {
+  feature_name: "w_natoms"
+  description: "Number of heavy atoms"
+  plot_title: "Number of heavy atoms"
+  line_color: "lightblue"
+  source: "enamine"
+}
+minval: 5.0
+maxval: 46.0
+mean: 24.39208
+median: 24.0
+quantile {
+  quantile: 0.01
+  value: 12.0
+}
+quantile {
+  quantile: 0.05
+  value: 17.0
+}
+quantile {
+  quantile: 0.1
+  value: 19.0
+}
+quantile {
+  quantile: 0.5
+  value: 24.0
+}
+quantile {
+  quantile: 0.9
+  value: 31.0
+}
+quantile {
+  quantile: 0.95
+  value: 32.0
+}
+quantile {
+  quantile: 0.99
+  value: 35.0
+}
+int_values {
+  value: 5
+  count: 2
+}
+int_values {
+  value: 6
+  count: 5
+}
+int_values {
+  value: 7
+  count: 10
+}
+int_values {
+  value: 8
+  count: 38
+}
+int_values {
+  value: 9
+  count: 61
+}
+int_values {
+  value: 10
+  count: 117
+}
+int_values {
+  value: 11
+  count: 155
+}
+int_values {
+  value: 12
+  count: 209
+}
+int_values {
+  value: 13
+  count: 252
+}
+int_values {
+  value: 14
+  count: 313
+}
+int_values {
+  value: 15
+  count: 502
+}
+int_values {
+  value: 16
+  count: 656
+}
+int_values {
+  value: 17
+  count: 963
+}
+int_values {
+  value: 18
+  count: 1325
+}
+int_values {
+  value: 19
+  count: 1899
+}
+int_values {
+  value: 20
+  count: 2527
+}
+int_values {
+  value: 21
+  count: 3138
+}
+int_values {
+  value: 22
+  count: 4011
+}
+int_values {
+  value: 23
+  count: 4651
+}
+int_values {
+  value: 24
+  count: 5320
+}
+int_values {
+  value: 25
+  count: 4810
+}
+int_values {
+  value: 26
+  count: 3774
+}
+int_values {
+  value: 27
+  count: 3201
+}
+int_values {
+  value: 28
+  count: 2707
+}
+int_values {
+  value: 29
+  count: 2325
+}
+int_values {
+  value: 30
+  count: 1956
+}
+int_values {
+  value: 31
+  count: 1589
+}
+int_values {
+  value: 32
+  count: 1257
+}
+int_values {
+  value: 33
+  count: 958
+}
+int_values {
+  value: 34
+  count: 656
+}
+int_values {
+  value: 35
+  count: 401
+}
+int_values {
+  value: 36
+  count: 136
+}
+int_values {
+  value: 37
+  count: 43
+}
+int_values {
+  value: 38
+  count: 10
+}
+int_values {
+  value: 39
+  count: 11
+}
+int_values {
+  value: 40
+  count: 2
+}
+int_values {
+  value: 41
+  count: 3
+}
+int_values {
+  value: 42
+  count: 3
+}
+int_values {
+  value: 43
+  count: 2
+}
+int_values {
+  value: 44
+  count: 1
+}
+int_values {
+  value: 46
+  count: 1
+}

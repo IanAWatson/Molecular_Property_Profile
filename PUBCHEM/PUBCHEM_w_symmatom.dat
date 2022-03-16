@@ -1,0 +1,178 @@
+description {
+  feature_name: "w_symmatom"
+  description: "Number of symmetric atoms"
+  plot_title: "Number of symmetric atoms"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 40.0
+mean: 5.58766
+median: 4.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 4.0
+}
+quantile {
+  quantile: 0.9
+  value: 12.0
+}
+quantile {
+  quantile: 0.95
+  value: 14.0
+}
+quantile {
+  quantile: 0.99
+  value: 24.0
+}
+int_values {
+  count: 10793
+}
+int_values {
+  value: 2
+  count: 3782
+}
+int_values {
+  value: 3
+  count: 974
+}
+int_values {
+  value: 4
+  count: 11915
+}
+int_values {
+  value: 5
+  count: 277
+}
+int_values {
+  value: 6
+  count: 5187
+}
+int_values {
+  value: 7
+  count: 1009
+}
+int_values {
+  value: 8
+  count: 6509
+}
+int_values {
+  value: 9
+  count: 408
+}
+int_values {
+  value: 10
+  count: 2898
+}
+int_values {
+  value: 11
+  count: 449
+}
+int_values {
+  value: 12
+  count: 2242
+}
+int_values {
+  value: 13
+  count: 214
+}
+int_values {
+  value: 14
+  count: 1056
+}
+int_values {
+  value: 15
+  count: 138
+}
+int_values {
+  value: 16
+  count: 704
+}
+int_values {
+  value: 17
+  count: 67
+}
+int_values {
+  value: 18
+  count: 365
+}
+int_values {
+  value: 19
+  count: 27
+}
+int_values {
+  value: 20
+  count: 199
+}
+int_values {
+  value: 21
+  count: 24
+}
+int_values {
+  value: 22
+  count: 152
+}
+int_values {
+  value: 23
+  count: 5
+}
+int_values {
+  value: 24
+  count: 110
+}
+int_values {
+  value: 25
+  count: 4
+}
+int_values {
+  value: 26
+  count: 91
+}
+int_values {
+  value: 27
+  count: 6
+}
+int_values {
+  value: 28
+  count: 102
+}
+int_values {
+  value: 29
+  count: 1
+}
+int_values {
+  value: 30
+  count: 75
+}
+int_values {
+  value: 32
+  count: 54
+}
+int_values {
+  value: 33
+  count: 4
+}
+int_values {
+  value: 34
+  count: 52
+}
+int_values {
+  value: 36
+  count: 53
+}
+int_values {
+  value: 38
+  count: 32
+}
+int_values {
+  value: 40
+  count: 22
+}

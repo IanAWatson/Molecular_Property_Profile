@@ -1,0 +1,148 @@
+description {
+  feature_name: "w_maxdrng"
+  description: "Max distance between any two rings"
+  plot_title: "Max distance between any two rings"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 27.0
+mean: 10.86184
+median: 11.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 3.0
+}
+quantile {
+  quantile: 0.1
+  value: 4.0
+}
+quantile {
+  quantile: 0.5
+  value: 11.0
+}
+quantile {
+  quantile: 0.9
+  value: 16.0
+}
+quantile {
+  quantile: 0.95
+  value: 17.0
+}
+quantile {
+  quantile: 0.99
+  value: 20.0
+}
+int_values {
+  count: 1057
+}
+int_values {
+  value: 1
+  count: 46
+}
+int_values {
+  value: 2
+  count: 592
+}
+int_values {
+  value: 3
+  count: 2915
+}
+int_values {
+  value: 4
+  count: 740
+}
+int_values {
+  value: 5
+  count: 746
+}
+int_values {
+  value: 6
+  count: 1283
+}
+int_values {
+  value: 7
+  count: 1888
+}
+int_values {
+  value: 8
+  count: 2773
+}
+int_values {
+  value: 9
+  count: 3737
+}
+int_values {
+  value: 10
+  count: 4660
+}
+int_values {
+  value: 11
+  count: 5721
+}
+int_values {
+  value: 12
+  count: 5475
+}
+int_values {
+  value: 13
+  count: 4960
+}
+int_values {
+  value: 14
+  count: 4441
+}
+int_values {
+  value: 15
+  count: 3220
+}
+int_values {
+  value: 16
+  count: 2235
+}
+int_values {
+  value: 17
+  count: 1563
+}
+int_values {
+  value: 18
+  count: 869
+}
+int_values {
+  value: 19
+  count: 537
+}
+int_values {
+  value: 20
+  count: 285
+}
+int_values {
+  value: 21
+  count: 134
+}
+int_values {
+  value: 22
+  count: 54
+}
+int_values {
+  value: 23
+  count: 41
+}
+int_values {
+  value: 24
+  count: 15
+}
+int_values {
+  value: 25
+  count: 10
+}
+int_values {
+  value: 26
+  count: 1
+}
+int_values {
+  value: 27
+  count: 2
+}

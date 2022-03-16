@@ -1,0 +1,52 @@
+description {
+  feature_name: "w_ncon4"
+  description: "Number of atoms with 4 connections"
+  plot_title: "Number of atoms with 4 connections"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 4.0
+mean: 0.33826
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+  value: 1.0
+}
+quantile {
+  quantile: 0.95
+  value: 1.0
+}
+quantile {
+  quantile: 0.99
+  value: 2.0
+}
+int_values {
+  count: 34941
+}
+int_values {
+  value: 1
+  count: 13330
+}
+int_values {
+  value: 2
+  count: 1611
+}
+int_values {
+  value: 3
+  count: 111
+}
+int_values {
+  value: 4
+  count: 7
+}

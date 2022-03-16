@@ -1,0 +1,116 @@
+description {
+  feature_name: "w_halogen"
+  description: "Number of halogen atoms"
+  plot_title: "Number of halogen atoms"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 24.0
+mean: 0.67324
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+  value: 2.0
+}
+quantile {
+  quantile: 0.95
+  value: 3.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 30179
+}
+int_values {
+  value: 1
+  count: 11985
+}
+int_values {
+  value: 2
+  count: 4476
+}
+int_values {
+  value: 3
+  count: 2097
+}
+int_values {
+  value: 4
+  count: 736
+}
+int_values {
+  value: 5
+  count: 216
+}
+int_values {
+  value: 6
+  count: 153
+}
+int_values {
+  value: 7
+  count: 59
+}
+int_values {
+  value: 8
+  count: 29
+}
+int_values {
+  value: 9
+  count: 13
+}
+int_values {
+  value: 10
+  count: 11
+}
+int_values {
+  value: 11
+  count: 7
+}
+int_values {
+  value: 12
+  count: 15
+}
+int_values {
+  value: 13
+  count: 10
+}
+int_values {
+  value: 14
+  count: 2
+}
+int_values {
+  value: 15
+  count: 4
+}
+int_values {
+  value: 16
+  count: 1
+}
+int_values {
+  value: 17
+  count: 4
+}
+int_values {
+  value: 18
+  count: 1
+}
+int_values {
+  value: 19
+  count: 1
+}
+int_values {
+  value: 24
+  count: 1
+}

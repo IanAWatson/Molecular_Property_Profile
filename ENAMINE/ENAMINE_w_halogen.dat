@@ -1,0 +1,76 @@
+description {
+  feature_name: "w_halogen"
+  description: "Number of halogen atoms"
+  plot_title: "Number of halogen atoms"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 10.0
+mean: 0.56772
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+  value: 2.0
+}
+quantile {
+  quantile: 0.95
+  value: 3.0
+}
+quantile {
+  quantile: 0.99
+  value: 4.0
+}
+int_values {
+  count: 32444
+}
+int_values {
+  value: 1
+  count: 10763
+}
+int_values {
+  value: 2
+  count: 3728
+}
+int_values {
+  value: 3
+  count: 2344
+}
+int_values {
+  value: 4
+  count: 562
+}
+int_values {
+  value: 5
+  count: 87
+}
+int_values {
+  value: 6
+  count: 63
+}
+int_values {
+  value: 7
+  count: 2
+}
+int_values {
+  value: 8
+  count: 4
+}
+int_values {
+  value: 9
+  count: 2
+}
+int_values {
+  value: 10
+  count: 1
+}

@@ -1,0 +1,131 @@
+description {
+  feature_name: "w_mxdst"
+  description: "Longest topological distance"
+  plot_title: "Longest topological distance"
+  line_color: "lightblue"
+  source: "enamine"
+}
+minval: 3.0
+maxval: 25.0
+mean: 13.2576
+median: 13.0
+quantile {
+  quantile: 0.01
+  value: 6.0
+}
+quantile {
+  quantile: 0.05
+  value: 9.0
+}
+quantile {
+  quantile: 0.1
+  value: 10.0
+}
+quantile {
+  quantile: 0.5
+  value: 13.0
+}
+quantile {
+  quantile: 0.9
+  value: 17.0
+}
+quantile {
+  quantile: 0.95
+  value: 18.0
+}
+quantile {
+  quantile: 0.99
+  value: 19.0
+}
+int_values {
+  value: 3
+  count: 6
+}
+int_values {
+  value: 4
+  count: 52
+}
+int_values {
+  value: 5
+  count: 177
+}
+int_values {
+  value: 6
+  count: 310
+}
+int_values {
+  value: 7
+  count: 429
+}
+int_values {
+  value: 8
+  count: 850
+}
+int_values {
+  value: 9
+  count: 1731
+}
+int_values {
+  value: 10
+  count: 3358
+}
+int_values {
+  value: 11
+  count: 5353
+}
+int_values {
+  value: 12
+  count: 6997
+}
+int_values {
+  value: 13
+  count: 7758
+}
+int_values {
+  value: 14
+  count: 7396
+}
+int_values {
+  value: 15
+  count: 5975
+}
+int_values {
+  value: 16
+  count: 4119
+}
+int_values {
+  value: 17
+  count: 2661
+}
+int_values {
+  value: 18
+  count: 1550
+}
+int_values {
+  value: 19
+  count: 781
+}
+int_values {
+  value: 20
+  count: 315
+}
+int_values {
+  value: 21
+  count: 129
+}
+int_values {
+  value: 22
+  count: 37
+}
+int_values {
+  value: 23
+  count: 11
+}
+int_values {
+  value: 24
+  count: 4
+}
+int_values {
+  value: 25
+  count: 1
+}

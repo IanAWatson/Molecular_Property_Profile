@@ -1,0 +1,184 @@
+description {
+  feature_name: "w_ncon1"
+  description: "Number of atoms with 1 connection"
+  plot_title: "Number of atoms with 1 connection"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 39.0
+mean: 5.1348
+median: 5.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 5.0
+}
+quantile {
+  quantile: 0.9
+  value: 9.0
+}
+quantile {
+  quantile: 0.95
+  value: 11.0
+}
+quantile {
+  quantile: 0.99
+  value: 18.0
+}
+int_values {
+  count: 552
+}
+int_values {
+  value: 1
+  count: 2431
+}
+int_values {
+  value: 2
+  count: 5474
+}
+int_values {
+  value: 3
+  count: 7814
+}
+int_values {
+  value: 4
+  count: 8697
+}
+int_values {
+  value: 5
+  count: 7479
+}
+int_values {
+  value: 6
+  count: 5810
+}
+int_values {
+  value: 7
+  count: 3875
+}
+int_values {
+  value: 8
+  count: 2543
+}
+int_values {
+  value: 9
+  count: 1468
+}
+int_values {
+  value: 10
+  count: 984
+}
+int_values {
+  value: 11
+  count: 593
+}
+int_values {
+  value: 12
+  count: 459
+}
+int_values {
+  value: 13
+  count: 347
+}
+int_values {
+  value: 14
+  count: 323
+}
+int_values {
+  value: 15
+  count: 232
+}
+int_values {
+  value: 16
+  count: 196
+}
+int_values {
+  value: 17
+  count: 161
+}
+int_values {
+  value: 18
+  count: 122
+}
+int_values {
+  value: 19
+  count: 97
+}
+int_values {
+  value: 20
+  count: 84
+}
+int_values {
+  value: 21
+  count: 51
+}
+int_values {
+  value: 22
+  count: 44
+}
+int_values {
+  value: 23
+  count: 37
+}
+int_values {
+  value: 24
+  count: 40
+}
+int_values {
+  value: 25
+  count: 24
+}
+int_values {
+  value: 26
+  count: 22
+}
+int_values {
+  value: 27
+  count: 16
+}
+int_values {
+  value: 28
+  count: 11
+}
+int_values {
+  value: 29
+  count: 3
+}
+int_values {
+  value: 30
+  count: 3
+}
+int_values {
+  value: 31
+  count: 1
+}
+int_values {
+  value: 32
+  count: 2
+}
+int_values {
+  value: 33
+  count: 1
+}
+int_values {
+  value: 37
+  count: 1
+}
+int_values {
+  value: 38
+  count: 2
+}
+int_values {
+  value: 39
+  count: 1
+}

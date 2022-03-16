@@ -1,0 +1,80 @@
+description {
+  feature_name: "w_nrings"
+  description: "Number of rings"
+  plot_title: "Number of rings"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 10.0
+mean: 3.05072
+median: 3.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 3.0
+}
+quantile {
+  quantile: 0.9
+  value: 5.0
+}
+quantile {
+  quantile: 0.95
+  value: 5.0
+}
+quantile {
+  quantile: 0.99
+  value: 6.0
+}
+int_values {
+  count: 1057
+}
+int_values {
+  value: 1
+  count: 3479
+}
+int_values {
+  value: 2
+  count: 11493
+}
+int_values {
+  value: 3
+  count: 16480
+}
+int_values {
+  value: 4
+  count: 12062
+}
+int_values {
+  value: 5
+  count: 4335
+}
+int_values {
+  value: 6
+  count: 963
+}
+int_values {
+  value: 7
+  count: 121
+}
+int_values {
+  value: 8
+  count: 8
+}
+int_values {
+  value: 9
+  count: 1
+}
+int_values {
+  value: 10
+  count: 1
+}

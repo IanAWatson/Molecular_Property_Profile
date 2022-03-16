@@ -1,0 +1,423 @@
+description {
+  feature_name: "w_rngatmf"
+  description: "Fraction of atoms that are in a ring"
+  plot_title: "Fraction of atoms that are in a ring"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 1.0
+mean: 0.61641103
+median: 0.6333
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 0.3214
+}
+quantile {
+  quantile: 0.1
+  value: 0.4231
+}
+quantile {
+  quantile: 0.5
+  value: 0.6333
+}
+quantile {
+  quantile: 0.9
+  value: 0.8056
+}
+quantile {
+  quantile: 0.95
+  value: 0.8462
+}
+quantile {
+  quantile: 0.99
+  value: 0.931
+}
+float_values {
+  count: 1057
+}
+float_values {
+  value: 0.01
+}
+float_values {
+  value: 0.02
+}
+float_values {
+  value: 0.03
+}
+float_values {
+  value: 0.04
+}
+float_values {
+  value: 0.05
+}
+float_values {
+  value: 0.06
+}
+float_values {
+  value: 0.07
+}
+float_values {
+  value: 0.08
+}
+float_values {
+  value: 0.09
+}
+float_values {
+  value: 0.1
+}
+float_values {
+  value: 0.11
+}
+float_values {
+  value: 0.12
+  count: 1
+}
+float_values {
+  value: 0.13
+  count: 3
+}
+float_values {
+  value: 0.14
+  count: 1
+}
+float_values {
+  value: 0.15
+  count: 11
+}
+float_values {
+  value: 0.16
+  count: 14
+}
+float_values {
+  value: 0.17
+  count: 15
+}
+float_values {
+  value: 0.18
+  count: 26
+}
+float_values {
+  value: 0.19
+  count: 16
+}
+float_values {
+  value: 0.2
+  count: 53
+}
+float_values {
+  value: 0.21
+  count: 36
+}
+float_values {
+  value: 0.22
+  count: 39
+}
+float_values {
+  value: 0.23
+  count: 58
+}
+float_values {
+  value: 0.24
+  count: 66
+}
+float_values {
+  value: 0.25
+  count: 108
+}
+float_values {
+  value: 0.26
+  count: 119
+}
+float_values {
+  value: 0.27
+  count: 177
+}
+float_values {
+  value: 0.28
+  count: 156
+}
+float_values {
+  value: 0.29
+  count: 38
+}
+float_values {
+  value: 0.3
+  count: 224
+}
+float_values {
+  value: 0.31
+  count: 274
+}
+float_values {
+  value: 0.32
+  count: 36
+}
+float_values {
+  value: 0.33
+  count: 319
+}
+float_values {
+  value: 0.34
+  count: 60
+}
+float_values {
+  value: 0.35
+  count: 361
+}
+float_values {
+  value: 0.36
+  count: 104
+}
+float_values {
+  value: 0.37
+  count: 423
+}
+float_values {
+  value: 0.38
+  count: 147
+}
+float_values {
+  value: 0.39
+  count: 111
+}
+float_values {
+  value: 0.4
+  count: 534
+}
+float_values {
+  value: 0.41
+  count: 313
+}
+float_values {
+  value: 0.42
+  count: 720
+}
+float_values {
+  value: 0.43
+  count: 91
+}
+float_values {
+  value: 0.44
+  count: 616
+}
+float_values {
+  value: 0.45
+  count: 441
+}
+float_values {
+  value: 0.46
+  count: 724
+}
+float_values {
+  value: 0.47
+  count: 487
+}
+float_values {
+  value: 0.48
+  count: 852
+}
+float_values {
+  value: 0.49
+}
+float_values {
+  value: 0.5
+  count: 1673
+}
+float_values {
+  value: 0.51
+  count: 569
+}
+float_values {
+  value: 0.52
+  count: 1367
+}
+float_values {
+  value: 0.53
+  count: 615
+}
+float_values {
+  value: 0.54
+  count: 1336
+}
+float_values {
+  value: 0.55
+  count: 929
+}
+float_values {
+  value: 0.56
+  count: 838
+}
+float_values {
+  value: 0.57
+  count: 1640
+}
+float_values {
+  value: 0.58
+  count: 1114
+}
+float_values {
+  value: 0.59
+  count: 481
+}
+float_values {
+  value: 0.6
+  count: 2305
+}
+float_values {
+  value: 0.61
+  count: 1033
+}
+float_values {
+  value: 0.62
+  count: 1777
+}
+float_values {
+  value: 0.63
+  count: 1028
+}
+float_values {
+  value: 0.64
+  count: 1521
+}
+float_values {
+  value: 0.65
+  count: 1463
+}
+float_values {
+  value: 0.66
+  count: 1794
+}
+float_values {
+  value: 0.67
+  count: 715
+}
+float_values {
+  value: 0.68
+  count: 1700
+}
+float_values {
+  value: 0.69
+  count: 1585
+}
+float_values {
+  value: 0.7
+  count: 1263
+}
+float_values {
+  value: 0.71
+  count: 973
+}
+float_values {
+  value: 0.72
+  count: 1374
+}
+float_values {
+  value: 0.73
+  count: 1181
+}
+float_values {
+  value: 0.74
+  count: 549
+}
+float_values {
+  value: 0.75
+  count: 1633
+}
+float_values {
+  value: 0.76
+  count: 1010
+}
+float_values {
+  value: 0.77
+  count: 817
+}
+float_values {
+  value: 0.78
+  count: 904
+}
+float_values {
+  value: 0.79
+  count: 429
+}
+float_values {
+  value: 0.8
+  count: 1056
+}
+float_values {
+  value: 0.81
+  count: 603
+}
+float_values {
+  value: 0.82
+  count: 514
+}
+float_values {
+  value: 0.83
+  count: 450
+}
+float_values {
+  value: 0.84
+  count: 487
+}
+float_values {
+  value: 0.85
+  count: 425
+}
+float_values {
+  value: 0.86
+  count: 327
+}
+float_values {
+  value: 0.87
+  count: 205
+}
+float_values {
+  value: 0.88
+  count: 326
+}
+float_values {
+  value: 0.89
+  count: 155
+}
+float_values {
+  value: 0.9
+  count: 235
+}
+float_values {
+  value: 0.91
+  count: 114
+}
+float_values {
+  value: 0.92
+  count: 151
+}
+float_values {
+  value: 0.93
+  count: 95
+}
+float_values {
+  value: 0.94
+  count: 119
+}
+float_values {
+  value: 0.95
+  count: 77
+}
+float_values {
+  value: 0.96
+  count: 52
+}
+float_values {
+  value: 0.97
+  count: 8
+}
+float_values {
+  value: 0.98
+}
+float_values {
+  value: 0.99
+  count: 154
+}

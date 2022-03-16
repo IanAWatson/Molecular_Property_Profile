@@ -1,0 +1,183 @@
+description {
+  feature_name: "w_mxdst"
+  description: "Longest topological distance"
+  plot_title: "Longest topological distance"
+  line_color: "green"
+  source: "pubchem"
+}
+minval: 2.0
+maxval: 38.0
+mean: 13.44976
+median: 13.0
+quantile {
+  quantile: 0.01
+  value: 5.0
+}
+quantile {
+  quantile: 0.05
+  value: 8.0
+}
+quantile {
+  quantile: 0.1
+  value: 9.0
+}
+quantile {
+  quantile: 0.5
+  value: 13.0
+}
+quantile {
+  quantile: 0.9
+  value: 18.0
+}
+quantile {
+  quantile: 0.95
+  value: 19.0
+}
+quantile {
+  quantile: 0.99
+  value: 22.0
+}
+int_values {
+  value: 2
+  count: 18
+}
+int_values {
+  value: 3
+  count: 55
+}
+int_values {
+  value: 4
+  count: 202
+}
+int_values {
+  value: 5
+  count: 351
+}
+int_values {
+  value: 6
+  count: 641
+}
+int_values {
+  value: 7
+  count: 945
+}
+int_values {
+  value: 8
+  count: 1504
+}
+int_values {
+  value: 9
+  count: 2361
+}
+int_values {
+  value: 10
+  count: 3298
+}
+int_values {
+  value: 11
+  count: 4437
+}
+int_values {
+  value: 12
+  count: 5388
+}
+int_values {
+  value: 13
+  count: 6020
+}
+int_values {
+  value: 14
+  count: 5955
+}
+int_values {
+  value: 15
+  count: 5598
+}
+int_values {
+  value: 16
+  count: 4289
+}
+int_values {
+  value: 17
+  count: 3335
+}
+int_values {
+  value: 18
+  count: 2255
+}
+int_values {
+  value: 19
+  count: 1433
+}
+int_values {
+  value: 20
+  count: 843
+}
+int_values {
+  value: 21
+  count: 463
+}
+int_values {
+  value: 22
+  count: 276
+}
+int_values {
+  value: 23
+  count: 145
+}
+int_values {
+  value: 24
+  count: 82
+}
+int_values {
+  value: 25
+  count: 46
+}
+int_values {
+  value: 26
+  count: 25
+}
+int_values {
+  value: 27
+  count: 9
+}
+int_values {
+  value: 28
+  count: 7
+}
+int_values {
+  value: 29
+  count: 5
+}
+int_values {
+  value: 30
+  count: 2
+}
+int_values {
+  value: 31
+  count: 2
+}
+int_values {
+  value: 32
+  count: 3
+}
+int_values {
+  value: 33
+  count: 2
+}
+int_values {
+  value: 34
+  count: 2
+}
+int_values {
+  value: 35
+  count: 1
+}
+int_values {
+  value: 36
+  count: 1
+}
+int_values {
+  value: 38
+  count: 1
+}

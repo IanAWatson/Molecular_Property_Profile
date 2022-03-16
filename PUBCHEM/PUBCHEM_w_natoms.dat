@@ -1,0 +1,183 @@
+description {
+  feature_name: "w_natoms"
+  description: "Number of heavy atoms"
+  plot_title: "Number of heavy atoms"
+  line_color: "green"
+  source: "pubchem"
+}
+minval: 5.0
+maxval: 40.0
+mean: 25.99892
+median: 26.0
+quantile {
+  quantile: 0.01
+  value: 10.0
+}
+quantile {
+  quantile: 0.05
+  value: 15.0
+}
+quantile {
+  quantile: 0.1
+  value: 18.0
+}
+quantile {
+  quantile: 0.5
+  value: 26.0
+}
+quantile {
+  quantile: 0.9
+  value: 34.0
+}
+quantile {
+  quantile: 0.95
+  value: 36.0
+}
+quantile {
+  quantile: 0.99
+  value: 39.0
+}
+int_values {
+  value: 5
+  count: 32
+}
+int_values {
+  value: 6
+  count: 46
+}
+int_values {
+  value: 7
+  count: 88
+}
+int_values {
+  value: 8
+  count: 92
+}
+int_values {
+  value: 9
+  count: 157
+}
+int_values {
+  value: 10
+  count: 224
+}
+int_values {
+  value: 11
+  count: 314
+}
+int_values {
+  value: 12
+  count: 387
+}
+int_values {
+  value: 13
+  count: 426
+}
+int_values {
+  value: 14
+  count: 586
+}
+int_values {
+  value: 15
+  count: 681
+}
+int_values {
+  value: 16
+  count: 826
+}
+int_values {
+  value: 17
+  count: 1091
+}
+int_values {
+  value: 18
+  count: 1198
+}
+int_values {
+  value: 19
+  count: 1519
+}
+int_values {
+  value: 20
+  count: 1848
+}
+int_values {
+  value: 21
+  count: 2203
+}
+int_values {
+  value: 22
+  count: 2481
+}
+int_values {
+  value: 23
+  count: 2665
+}
+int_values {
+  value: 24
+  count: 2891
+}
+int_values {
+  value: 25
+  count: 3176
+}
+int_values {
+  value: 26
+  count: 3053
+}
+int_values {
+  value: 27
+  count: 3054
+}
+int_values {
+  value: 28
+  count: 3080
+}
+int_values {
+  value: 29
+  count: 2899
+}
+int_values {
+  value: 30
+  count: 2689
+}
+int_values {
+  value: 31
+  count: 2197
+}
+int_values {
+  value: 32
+  count: 2011
+}
+int_values {
+  value: 33
+  count: 1756
+}
+int_values {
+  value: 34
+  count: 1497
+}
+int_values {
+  value: 35
+  count: 1302
+}
+int_values {
+  value: 36
+  count: 1044
+}
+int_values {
+  value: 37
+  count: 839
+}
+int_values {
+  value: 38
+  count: 644
+}
+int_values {
+  value: 39
+  count: 573
+}
+int_values {
+  value: 40
+  count: 431
+}

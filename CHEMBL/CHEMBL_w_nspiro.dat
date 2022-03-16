@@ -1,0 +1,46 @@
+description {
+  feature_name: "w_nspiro"
+  description: "Number of spiro fused atoms"
+  plot_title: "Number of spiro fused atoms"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 3.0
+mean: 0.0265
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+}
+quantile {
+  quantile: 0.95
+}
+quantile {
+  quantile: 0.99
+  value: 1.0
+}
+int_values {
+  count: 48761
+}
+int_values {
+  value: 1
+  count: 1156
+}
+int_values {
+  value: 2
+  count: 80
+}
+int_values {
+  value: 3
+  count: 3
+}

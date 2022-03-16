@@ -1,0 +1,67 @@
+description {
+  feature_name: "w_nelem"
+  description: "Number of different elements"
+  plot_title: "Number of different elements"
+  line_color: "green"
+  source: "pubchem"
+}
+minval: 2.0
+maxval: 8.0
+mean: 4.74162
+median: 5.0
+quantile {
+  quantile: 0.01
+  value: 3.0
+}
+quantile {
+  quantile: 0.05
+  value: 3.0
+}
+quantile {
+  quantile: 0.1
+  value: 4.0
+}
+quantile {
+  quantile: 0.5
+  value: 5.0
+}
+quantile {
+  quantile: 0.9
+  value: 6.0
+}
+quantile {
+  quantile: 0.95
+  value: 6.0
+}
+quantile {
+  quantile: 0.99
+  value: 7.0
+}
+int_values {
+  value: 2
+  count: 124
+}
+int_values {
+  value: 3
+  count: 2766
+}
+int_values {
+  value: 4
+  count: 17028
+}
+int_values {
+  value: 5
+  count: 21009
+}
+int_values {
+  value: 6
+  count: 8154
+}
+int_values {
+  value: 7
+  count: 898
+}
+int_values {
+  value: 8
+  count: 21
+}

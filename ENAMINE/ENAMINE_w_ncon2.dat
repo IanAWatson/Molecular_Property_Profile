@@ -1,0 +1,149 @@
+description {
+  feature_name: "w_ncon2"
+  description: "Number of atoms with 2 connections"
+  plot_title: "Number of atoms with 2 connections"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 27.0
+mean: 12.65534
+median: 13.0
+quantile {
+  quantile: 0.01
+  value: 5.0
+}
+quantile {
+  quantile: 0.05
+  value: 7.0
+}
+quantile {
+  quantile: 0.1
+  value: 8.0
+}
+quantile {
+  quantile: 0.5
+  value: 13.0
+}
+quantile {
+  quantile: 0.9
+  value: 17.0
+}
+quantile {
+  quantile: 0.95
+  value: 18.0
+}
+quantile {
+  quantile: 0.99
+  value: 21.0
+}
+int_values {
+  count: 5
+}
+int_values {
+  value: 1
+  count: 18
+}
+int_values {
+  value: 2
+  count: 66
+}
+int_values {
+  value: 3
+  count: 134
+}
+int_values {
+  value: 4
+  count: 273
+}
+int_values {
+  value: 5
+  count: 507
+}
+int_values {
+  value: 6
+  count: 881
+}
+int_values {
+  value: 7
+  count: 1497
+}
+int_values {
+  value: 8
+  count: 2340
+}
+int_values {
+  value: 9
+  count: 3189
+}
+int_values {
+  value: 10
+  count: 4323
+}
+int_values {
+  value: 11
+  count: 5160
+}
+int_values {
+  value: 12
+  count: 5670
+}
+int_values {
+  value: 13
+  count: 5831
+}
+int_values {
+  value: 14
+  count: 5359
+}
+int_values {
+  value: 15
+  count: 4666
+}
+int_values {
+  value: 16
+  count: 3563
+}
+int_values {
+  value: 17
+  count: 2484
+}
+int_values {
+  value: 18
+  count: 1689
+}
+int_values {
+  value: 19
+  count: 1063
+}
+int_values {
+  value: 20
+  count: 643
+}
+int_values {
+  value: 21
+  count: 365
+}
+int_values {
+  value: 22
+  count: 164
+}
+int_values {
+  value: 23
+  count: 74
+}
+int_values {
+  value: 24
+  count: 22
+}
+int_values {
+  value: 25
+  count: 10
+}
+int_values {
+  value: 26
+  count: 3
+}
+int_values {
+  value: 27
+  count: 1
+}

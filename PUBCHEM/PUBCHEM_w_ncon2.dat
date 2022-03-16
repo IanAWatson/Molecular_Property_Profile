@@ -1,0 +1,177 @@
+description {
+  feature_name: "w_ncon2"
+  description: "Number of atoms with 2 connections"
+  plot_title: "Number of atoms with 2 connections"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 36.0
+mean: 13.00728
+median: 13.0
+quantile {
+  quantile: 0.01
+  value: 3.0
+}
+quantile {
+  quantile: 0.05
+  value: 6.0
+}
+quantile {
+  quantile: 0.1
+  value: 8.0
+}
+quantile {
+  quantile: 0.5
+  value: 13.0
+}
+quantile {
+  quantile: 0.9
+  value: 18.0
+}
+quantile {
+  quantile: 0.95
+  value: 20.0
+}
+quantile {
+  quantile: 0.99
+  value: 23.0
+}
+int_values {
+  count: 75
+}
+int_values {
+  value: 1
+  count: 127
+}
+int_values {
+  value: 2
+  count: 266
+}
+int_values {
+  value: 3
+  count: 350
+}
+int_values {
+  value: 4
+  count: 539
+}
+int_values {
+  value: 5
+  count: 787
+}
+int_values {
+  value: 6
+  count: 1191
+}
+int_values {
+  value: 7
+  count: 1619
+}
+int_values {
+  value: 8
+  count: 2169
+}
+int_values {
+  value: 9
+  count: 2857
+}
+int_values {
+  value: 10
+  count: 3583
+}
+int_values {
+  value: 11
+  count: 4217
+}
+int_values {
+  value: 12
+  count: 4746
+}
+int_values {
+  value: 13
+  count: 4782
+}
+int_values {
+  value: 14
+  count: 4666
+}
+int_values {
+  value: 15
+  count: 4206
+}
+int_values {
+  value: 16
+  count: 3702
+}
+int_values {
+  value: 17
+  count: 2946
+}
+int_values {
+  value: 18
+  count: 2251
+}
+int_values {
+  value: 19
+  count: 1667
+}
+int_values {
+  value: 20
+  count: 1261
+}
+int_values {
+  value: 21
+  count: 803
+}
+int_values {
+  value: 22
+  count: 519
+}
+int_values {
+  value: 23
+  count: 288
+}
+int_values {
+  value: 24
+  count: 201
+}
+int_values {
+  value: 25
+  count: 79
+}
+int_values {
+  value: 26
+  count: 46
+}
+int_values {
+  value: 27
+  count: 19
+}
+int_values {
+  value: 28
+  count: 14
+}
+int_values {
+  value: 29
+  count: 8
+}
+int_values {
+  value: 30
+  count: 3
+}
+int_values {
+  value: 31
+  count: 4
+}
+int_values {
+  value: 32
+  count: 5
+}
+int_values {
+  value: 33
+  count: 3
+}
+int_values {
+  value: 36
+  count: 1
+}

@@ -1,0 +1,82 @@
+description {
+  feature_name: "w_lflxchn"
+  description: "Length of longest flexible chain"
+  plot_title: "Length of longest flexible chain"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 12.0
+mean: 1.7226
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 3.0
+}
+quantile {
+  quantile: 0.95
+  value: 4.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 6406
+}
+int_values {
+  value: 1
+  count: 16147
+}
+int_values {
+  value: 2
+  count: 16564
+}
+int_values {
+  value: 3
+  count: 7887
+}
+int_values {
+  value: 4
+  count: 2104
+}
+int_values {
+  value: 5
+  count: 645
+}
+int_values {
+  value: 6
+  count: 198
+}
+int_values {
+  value: 7
+  count: 36
+}
+int_values {
+  value: 8
+  count: 9
+}
+int_values {
+  value: 9
+  count: 2
+}
+int_values {
+  value: 11
+  count: 1
+}
+int_values {
+  value: 12
+  count: 1
+}

@@ -1,0 +1,108 @@
+description {
+  feature_name: "w_nrings"
+  description: "Number of rings"
+  plot_title: "Number of rings"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 33.0
+mean: 3.50742
+median: 3.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 3.0
+}
+quantile {
+  quantile: 0.9
+  value: 5.0
+}
+quantile {
+  quantile: 0.95
+  value: 6.0
+}
+quantile {
+  quantile: 0.99
+  value: 7.01
+}
+int_values {
+  count: 527
+}
+int_values {
+  value: 1
+  count: 2351
+}
+int_values {
+  value: 2
+  count: 8189
+}
+int_values {
+  value: 3
+  count: 14852
+}
+int_values {
+  value: 4
+  count: 13754
+}
+int_values {
+  value: 5
+  count: 6976
+}
+int_values {
+  value: 6
+  count: 2148
+}
+int_values {
+  value: 7
+  count: 703
+}
+int_values {
+  value: 8
+  count: 296
+}
+int_values {
+  value: 9
+  count: 121
+}
+int_values {
+  value: 10
+  count: 45
+}
+int_values {
+  value: 11
+  count: 23
+}
+int_values {
+  value: 12
+  count: 5
+}
+int_values {
+  value: 13
+  count: 6
+}
+int_values {
+  value: 14
+  count: 1
+}
+int_values {
+  value: 17
+  count: 1
+}
+int_values {
+  value: 19
+  count: 1
+}
+int_values {
+  value: 33
+  count: 1
+}

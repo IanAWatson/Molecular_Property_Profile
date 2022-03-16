@@ -1,0 +1,409 @@
+description {
+  feature_name: "w_avcon"
+  description: "Average connectivity"
+  plot_title: "Average connectivity"
+  line_color: "yellow"
+  source: "chembl"
+}
+minval: 1.667
+maxval: 2.727
+mean: 2.1680844
+median: 2.174
+quantile {
+  quantile: 0.01
+  value: 1.957
+}
+quantile {
+  quantile: 0.05
+  value: 2.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.08
+}
+quantile {
+  quantile: 0.5
+  value: 2.174
+}
+quantile {
+  quantile: 0.9
+  value: 2.258
+}
+quantile {
+  quantile: 0.95
+  value: 2.276
+}
+quantile {
+  quantile: 0.99
+  value: 2.323
+}
+float_values {
+  value: 1.667
+  count: 11
+}
+float_values {
+  value: 1.6776
+}
+float_values {
+  value: 1.6882
+}
+float_values {
+  value: 1.6988
+}
+float_values {
+  value: 1.7094
+  count: 14
+}
+float_values {
+  value: 1.72
+}
+float_values {
+  value: 1.7306
+}
+float_values {
+  value: 1.7412
+  count: 21
+}
+float_values {
+  value: 1.7518
+}
+float_values {
+  value: 1.7624
+}
+float_values {
+  value: 1.773
+  count: 17
+}
+float_values {
+  value: 1.7836
+}
+float_values {
+  value: 1.7942
+  count: 24
+}
+float_values {
+  value: 1.8048
+}
+float_values {
+  value: 1.8154
+  count: 19
+}
+float_values {
+  value: 1.826
+  count: 25
+}
+float_values {
+  value: 1.8366
+  count: 22
+}
+float_values {
+  value: 1.8472
+  count: 24
+}
+float_values {
+  value: 1.8578
+  count: 26
+}
+float_values {
+  value: 1.8684
+  count: 35
+}
+float_values {
+  value: 1.879
+  count: 38
+}
+float_values {
+  value: 1.8896
+  count: 26
+}
+float_values {
+  value: 1.9002
+  count: 36
+}
+float_values {
+  value: 1.9108
+  count: 36
+}
+float_values {
+  value: 1.9214
+  count: 57
+}
+float_values {
+  value: 1.932
+  count: 26
+}
+float_values {
+  value: 1.9426
+  count: 34
+}
+float_values {
+  value: 1.9532
+  count: 24
+}
+float_values {
+  value: 1.9638
+  count: 11
+}
+float_values {
+  value: 1.9744
+  count: 1
+}
+float_values {
+  value: 1.985
+}
+float_values {
+  value: 1.9956
+  count: 2351
+}
+float_values {
+  value: 2.0062
+}
+float_values {
+  value: 2.0168
+  count: 18
+}
+float_values {
+  value: 2.0274
+  count: 68
+}
+float_values {
+  value: 2.038
+  count: 161
+}
+float_values {
+  value: 2.0486
+  count: 300
+}
+float_values {
+  value: 2.0592
+  count: 573
+}
+float_values {
+  value: 2.0698
+  count: 1347
+}
+float_values {
+  value: 2.0804
+  count: 1218
+}
+float_values {
+  value: 2.091
+  count: 2325
+}
+float_values {
+  value: 2.1016
+  count: 1785
+}
+float_values {
+  value: 2.1122
+  count: 1339
+}
+float_values {
+  value: 2.1228
+  count: 2430
+}
+float_values {
+  value: 2.1334
+  count: 2118
+}
+float_values {
+  value: 2.144
+  count: 2871
+}
+float_values {
+  value: 2.1546
+  count: 1986
+}
+float_values {
+  value: 2.1652
+  count: 3784
+}
+float_values {
+  value: 2.1758
+  count: 2889
+}
+float_values {
+  value: 2.1864
+  count: 3244
+}
+float_values {
+  value: 2.197
+  count: 3424
+}
+float_values {
+  value: 2.2076
+  count: 2534
+}
+float_values {
+  value: 2.2182
+  count: 2023
+}
+float_values {
+  value: 2.2288
+  count: 2530
+}
+float_values {
+  value: 2.2394
+  count: 1582
+}
+float_values {
+  value: 2.25
+  count: 2054
+}
+float_values {
+  value: 2.2606
+  count: 1337
+}
+float_values {
+  value: 2.2712
+  count: 934
+}
+float_values {
+  value: 2.2818
+  count: 688
+}
+float_values {
+  value: 2.2924
+  count: 492
+}
+float_values {
+  value: 2.303
+  count: 356
+}
+float_values {
+  value: 2.3136
+  count: 294
+}
+float_values {
+  value: 2.3242
+  count: 157
+}
+float_values {
+  value: 2.3348
+  count: 52
+}
+float_values {
+  value: 2.3454
+  count: 59
+}
+float_values {
+  value: 2.356
+  count: 50
+}
+float_values {
+  value: 2.3666
+  count: 24
+}
+float_values {
+  value: 2.3772
+  count: 27
+}
+float_values {
+  value: 2.3878
+  count: 11
+}
+float_values {
+  value: 2.3984
+  count: 14
+}
+float_values {
+  value: 2.409
+  count: 3
+}
+float_values {
+  value: 2.4196
+  count: 7
+}
+float_values {
+  value: 2.4302
+  count: 1
+}
+float_values {
+  value: 2.4408
+  count: 1
+}
+float_values {
+  value: 2.4514
+  count: 5
+}
+float_values {
+  value: 2.462
+  count: 2
+}
+float_values {
+  value: 2.4726
+  count: 1
+}
+float_values {
+  value: 2.4832
+}
+float_values {
+  value: 2.4938
+}
+float_values {
+  value: 2.5044
+}
+float_values {
+  value: 2.515
+  count: 1
+}
+float_values {
+  value: 2.5256
+  count: 1
+}
+float_values {
+  value: 2.5362
+}
+float_values {
+  value: 2.5468
+}
+float_values {
+  value: 2.5574
+}
+float_values {
+  value: 2.568
+  count: 1
+}
+float_values {
+  value: 2.5786
+}
+float_values {
+  value: 2.5892
+}
+float_values {
+  value: 2.5998
+}
+float_values {
+  value: 2.6104
+}
+float_values {
+  value: 2.621
+}
+float_values {
+  value: 2.6316
+}
+float_values {
+  value: 2.6422
+}
+float_values {
+  value: 2.6528
+}
+float_values {
+  value: 2.6634
+}
+float_values {
+  value: 2.674
+}
+float_values {
+  value: 2.6846
+}
+float_values {
+  value: 2.6952
+}
+float_values {
+  value: 2.7058
+}
+float_values {
+  value: 2.7164
+  count: 1
+}

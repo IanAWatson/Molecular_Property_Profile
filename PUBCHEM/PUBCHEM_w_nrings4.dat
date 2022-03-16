@@ -1,0 +1,49 @@
+description {
+  feature_name: "w_nrings4"
+  description: "Number of 4 membered rings"
+  plot_title: "Number of 4 membered rings"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 5.0
+mean: 0.00388
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+}
+quantile {
+  quantile: 0.95
+}
+quantile {
+  quantile: 0.99
+}
+int_values {
+  count: 49819
+}
+int_values {
+  value: 1
+  count: 173
+}
+int_values {
+  value: 2
+  count: 6
+}
+int_values {
+  value: 4
+  count: 1
+}
+int_values {
+  value: 5
+  count: 1
+}

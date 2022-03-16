@@ -1,0 +1,150 @@
+description {
+  feature_name: "w_lflxchn"
+  description: "Length of longest flexible chain"
+  plot_title: "Length of longest flexible chain"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 33.0
+mean: 1.85578
+median: 1.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 1.0
+}
+quantile {
+  quantile: 0.9
+  value: 4.0
+}
+quantile {
+  quantile: 0.95
+  value: 5.0
+}
+quantile {
+  quantile: 0.99
+  value: 11.0
+}
+int_values {
+  count: 11160
+}
+int_values {
+  value: 1
+  count: 13904
+}
+int_values {
+  value: 2
+  count: 12832
+}
+int_values {
+  value: 3
+  count: 6356
+}
+int_values {
+  value: 4
+  count: 2564
+}
+int_values {
+  value: 5
+  count: 1248
+}
+int_values {
+  value: 6
+  count: 641
+}
+int_values {
+  value: 7
+  count: 305
+}
+int_values {
+  value: 8
+  count: 195
+}
+int_values {
+  value: 9
+  count: 156
+}
+int_values {
+  value: 10
+  count: 113
+}
+int_values {
+  value: 11
+  count: 93
+}
+int_values {
+  value: 12
+  count: 92
+}
+int_values {
+  value: 13
+  count: 69
+}
+int_values {
+  value: 14
+  count: 57
+}
+int_values {
+  value: 15
+  count: 43
+}
+int_values {
+  value: 16
+  count: 64
+}
+int_values {
+  value: 17
+  count: 32
+}
+int_values {
+  value: 18
+  count: 26
+}
+int_values {
+  value: 19
+  count: 15
+}
+int_values {
+  value: 20
+  count: 13
+}
+int_values {
+  value: 21
+  count: 2
+}
+int_values {
+  value: 22
+  count: 4
+}
+int_values {
+  value: 23
+  count: 3
+}
+int_values {
+  value: 24
+  count: 6
+}
+int_values {
+  value: 25
+  count: 3
+}
+int_values {
+  value: 27
+  count: 1
+}
+int_values {
+  value: 28
+  count: 2
+}
+int_values {
+  value: 33
+  count: 1
+}

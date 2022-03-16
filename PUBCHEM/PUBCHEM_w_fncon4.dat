@@ -1,0 +1,396 @@
+description {
+  feature_name: "w_fncon4"
+  description: "Fraction of atoms with 4 connections"
+  plot_title: "Fraction of atoms with 4 connections"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 0.4444
+mean: 0.013328115
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+  value: 0.04545
+}
+quantile {
+  quantile: 0.95
+  value: 0.06667
+}
+quantile {
+  quantile: 0.99
+  value: 0.125
+}
+float_values {
+  count: 37305
+}
+float_values {
+  value: 0.004444
+}
+float_values {
+  value: 0.008888
+}
+float_values {
+  value: 0.013332
+}
+float_values {
+  value: 0.017776
+}
+float_values {
+  value: 0.02222
+  count: 378
+}
+float_values {
+  value: 0.026664
+  count: 1460
+}
+float_values {
+  value: 0.031108
+  count: 2214
+}
+float_values {
+  value: 0.035552
+  count: 1865
+}
+float_values {
+  value: 0.039996
+  count: 1575
+}
+float_values {
+  value: 0.04444
+  count: 798
+}
+float_values {
+  value: 0.048884
+  count: 742
+}
+float_values {
+  value: 0.053328
+  count: 386
+}
+float_values {
+  value: 0.057772
+  count: 337
+}
+float_values {
+  value: 0.062216
+  count: 316
+}
+float_values {
+  value: 0.06666
+  count: 330
+}
+float_values {
+  value: 0.071104
+  count: 334
+}
+float_values {
+  value: 0.075548
+  count: 230
+}
+float_values {
+  value: 0.079992
+  count: 281
+}
+float_values {
+  value: 0.084436
+  count: 119
+}
+float_values {
+  value: 0.08888
+  count: 153
+}
+float_values {
+  value: 0.093324
+  count: 147
+}
+float_values {
+  value: 0.097768
+  count: 118
+}
+float_values {
+  value: 0.102212
+  count: 78
+}
+float_values {
+  value: 0.106656
+  count: 31
+}
+float_values {
+  value: 0.1111
+  count: 146
+}
+float_values {
+  value: 0.115544
+  count: 45
+}
+float_values {
+  value: 0.119988
+  count: 39
+}
+float_values {
+  value: 0.124432
+  count: 85
+}
+float_values {
+  value: 0.128876
+  count: 64
+}
+float_values {
+  value: 0.13332
+  count: 26
+}
+float_values {
+  value: 0.137764
+  count: 5
+}
+float_values {
+  value: 0.142208
+  count: 72
+}
+float_values {
+  value: 0.146652
+  count: 26
+}
+float_values {
+  value: 0.151096
+  count: 29
+}
+float_values {
+  value: 0.15554
+  count: 27
+}
+float_values {
+  value: 0.159984
+  count: 6
+}
+float_values {
+  value: 0.164428
+  count: 43
+}
+float_values {
+  value: 0.168872
+  count: 9
+}
+float_values {
+  value: 0.173316
+  count: 18
+}
+float_values {
+  value: 0.17776
+  count: 24
+}
+float_values {
+  value: 0.182204
+  count: 1
+}
+float_values {
+  value: 0.186648
+  count: 10
+}
+float_values {
+  value: 0.191092
+  count: 9
+}
+float_values {
+  value: 0.195536
+}
+float_values {
+  value: 0.19998
+  count: 40
+}
+float_values {
+  value: 0.204424
+  count: 7
+}
+float_values {
+  value: 0.208868
+  count: 6
+}
+float_values {
+  value: 0.213312
+  count: 8
+}
+float_values {
+  value: 0.217756
+}
+float_values {
+  value: 0.2222
+  count: 7
+}
+float_values {
+  value: 0.226644
+  count: 6
+}
+float_values {
+  value: 0.231088
+  count: 4
+}
+float_values {
+  value: 0.235532
+  count: 6
+}
+float_values {
+  value: 0.239976
+  count: 1
+}
+float_values {
+  value: 0.24442
+}
+float_values {
+  value: 0.248864
+  count: 8
+}
+float_values {
+  value: 0.253308
+}
+float_values {
+  value: 0.257752
+  count: 2
+}
+float_values {
+  value: 0.262196
+}
+float_values {
+  value: 0.26664
+  count: 3
+}
+float_values {
+  value: 0.271084
+  count: 2
+}
+float_values {
+  value: 0.275528
+}
+float_values {
+  value: 0.279972
+}
+float_values {
+  value: 0.284416
+  count: 5
+}
+float_values {
+  value: 0.28886
+}
+float_values {
+  value: 0.293304
+  count: 2
+}
+float_values {
+  value: 0.297748
+  count: 1
+}
+float_values {
+  value: 0.302192
+}
+float_values {
+  value: 0.306636
+  count: 1
+}
+float_values {
+  value: 0.31108
+  count: 2
+}
+float_values {
+  value: 0.315524
+  count: 1
+}
+float_values {
+  value: 0.319968
+}
+float_values {
+  value: 0.324412
+}
+float_values {
+  value: 0.328856
+}
+float_values {
+  value: 0.3333
+  count: 3
+}
+float_values {
+  value: 0.337744
+}
+float_values {
+  value: 0.342188
+  count: 1
+}
+float_values {
+  value: 0.346632
+}
+float_values {
+  value: 0.351076
+}
+float_values {
+  value: 0.35552
+  count: 1
+}
+float_values {
+  value: 0.359964
+}
+float_values {
+  value: 0.364408
+}
+float_values {
+  value: 0.368852
+}
+float_values {
+  value: 0.373296
+}
+float_values {
+  value: 0.37774
+}
+float_values {
+  value: 0.382184
+}
+float_values {
+  value: 0.386628
+}
+float_values {
+  value: 0.391072
+}
+float_values {
+  value: 0.395516
+}
+float_values {
+  value: 0.39996
+}
+float_values {
+  value: 0.404404
+}
+float_values {
+  value: 0.408848
+}
+float_values {
+  value: 0.413292
+}
+float_values {
+  value: 0.417736
+}
+float_values {
+  value: 0.42218
+}
+float_values {
+  value: 0.426624
+  count: 1
+}
+float_values {
+  value: 0.431068
+}
+float_values {
+  value: 0.435512
+}
+float_values {
+  value: 0.439956
+  count: 1
+}

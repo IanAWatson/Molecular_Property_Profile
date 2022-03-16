@@ -1,0 +1,47 @@
+description {
+  feature_name: "w_nrings3"
+  description: "Number of 3 membered rings"
+  plot_title: "Number of 3 membered rings"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 3.0
+mean: 0.06058
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+}
+quantile {
+  quantile: 0.9
+}
+quantile {
+  quantile: 0.95
+  value: 1.0
+}
+quantile {
+  quantile: 0.99
+  value: 1.0
+}
+int_values {
+  count: 47105
+}
+int_values {
+  value: 1
+  count: 2762
+}
+int_values {
+  value: 2
+  count: 132
+}
+int_values {
+  value: 3
+  count: 1
+}

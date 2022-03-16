@@ -1,0 +1,74 @@
+description {
+  feature_name: "w_aromha"
+  description: "Number of aromatic heteroatoms"
+  plot_title: "Number of aromatic heteroatoms"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 9.0
+mean: 1.68898
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 4.0
+}
+quantile {
+  quantile: 0.95
+  value: 5.0
+}
+quantile {
+  quantile: 0.99
+  value: 6.0
+}
+int_values {
+  count: 16513
+}
+int_values {
+  value: 1
+  count: 8140
+}
+int_values {
+  value: 2
+  count: 10916
+}
+int_values {
+  value: 3
+  count: 7369
+}
+int_values {
+  value: 4
+  count: 4286
+}
+int_values {
+  value: 5
+  count: 1749
+}
+int_values {
+  value: 6
+  count: 757
+}
+int_values {
+  value: 7
+  count: 222
+}
+int_values {
+  value: 8
+  count: 47
+}
+int_values {
+  value: 9
+  count: 1
+}

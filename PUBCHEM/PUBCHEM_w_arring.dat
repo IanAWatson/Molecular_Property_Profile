@@ -1,0 +1,75 @@
+description {
+  feature_name: "w_arring"
+  description: "Number of aromatic rings"
+  plot_title: "Number of aromatic rings"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 10.0
+mean: 2.25634
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+  value: 1.0
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 4.0
+}
+quantile {
+  quantile: 0.95
+  value: 4.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 3002
+}
+int_values {
+  value: 1
+  count: 8891
+}
+int_values {
+  value: 2
+  count: 18028
+}
+int_values {
+  value: 3
+  count: 13669
+}
+int_values {
+  value: 4
+  count: 5318
+}
+int_values {
+  value: 5
+  count: 981
+}
+int_values {
+  value: 6
+  count: 96
+}
+int_values {
+  value: 7
+  count: 12
+}
+int_values {
+  value: 8
+  count: 2
+}
+int_values {
+  value: 10
+  count: 1
+}

@@ -1,0 +1,58 @@
+description {
+  feature_name: "w_nrings5"
+  description: "Number of 5 membered rings"
+  plot_title: "Number of 5 membered rings"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 5.0
+mean: 0.9088
+median: 1.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 1.0
+}
+quantile {
+  quantile: 0.9
+  value: 2.0
+}
+quantile {
+  quantile: 0.95
+  value: 2.0
+}
+quantile {
+  quantile: 0.99
+  value: 3.0
+}
+int_values {
+  count: 16933
+}
+int_values {
+  value: 1
+  count: 22322
+}
+int_values {
+  value: 2
+  count: 9224
+}
+int_values {
+  value: 3
+  count: 1422
+}
+int_values {
+  value: 4
+  count: 91
+}
+int_values {
+  value: 5
+  count: 8
+}

@@ -1,0 +1,90 @@
+description {
+  feature_name: "w_intrnlrng"
+  description: "Number of chain atoms between rings"
+  plot_title: "Number of chain atoms between rings"
+  line_color: "yellow"
+  source: "chembl"
+}
+maxval: 33.0
+mean: 1.33738
+median: 1.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+}
+quantile {
+  quantile: 0.1
+}
+quantile {
+  quantile: 0.5
+  value: 1.0
+}
+quantile {
+  quantile: 0.9
+  value: 3.0
+}
+quantile {
+  quantile: 0.95
+  value: 3.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 12446
+}
+int_values {
+  value: 1
+  count: 18292
+}
+int_values {
+  value: 2
+  count: 12246
+}
+int_values {
+  value: 3
+  count: 4931
+}
+int_values {
+  value: 4
+  count: 1447
+}
+int_values {
+  value: 5
+  count: 443
+}
+int_values {
+  value: 6
+  count: 139
+}
+int_values {
+  value: 7
+  count: 35
+}
+int_values {
+  value: 8
+  count: 13
+}
+int_values {
+  value: 9
+  count: 2
+}
+int_values {
+  value: 10
+  count: 3
+}
+int_values {
+  value: 12
+  count: 1
+}
+int_values {
+  value: 13
+  count: 1
+}
+int_values {
+  value: 33
+  count: 1
+}

@@ -1,0 +1,69 @@
+description {
+  feature_name: "w_nrings"
+  description: "Number of rings"
+  plot_title: "Number of rings"
+  line_color: "lightblue"
+  source: "enamine"
+}
+maxval: 7.0
+mean: 2.92694
+median: 3.0
+quantile {
+  quantile: 0.01
+  value: 1.0
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 2.0
+}
+quantile {
+  quantile: 0.5
+  value: 3.0
+}
+quantile {
+  quantile: 0.9
+  value: 4.0
+}
+quantile {
+  quantile: 0.95
+  value: 4.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 128
+}
+int_values {
+  value: 1
+  count: 2632
+}
+int_values {
+  value: 2
+  count: 13685
+}
+int_values {
+  value: 3
+  count: 20319
+}
+int_values {
+  value: 4
+  count: 10959
+}
+int_values {
+  value: 5
+  count: 2115
+}
+int_values {
+  value: 6
+  count: 157
+}
+int_values {
+  value: 7
+  count: 5
+}

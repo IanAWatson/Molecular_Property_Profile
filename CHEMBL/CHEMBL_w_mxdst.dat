@@ -1,0 +1,235 @@
+description {
+  feature_name: "w_mxdst"
+  description: "Longest topological distance"
+  plot_title: "Longest topological distance"
+  line_color: "yellow"
+  source: "chembl"
+}
+minval: 3.0
+maxval: 58.0
+mean: 14.5759
+median: 14.0
+quantile {
+  quantile: 0.01
+  value: 6.0
+}
+quantile {
+  quantile: 0.05
+  value: 8.0
+}
+quantile {
+  quantile: 0.1
+  value: 10.0
+}
+quantile {
+  quantile: 0.5
+  value: 14.0
+}
+quantile {
+  quantile: 0.9
+  value: 20.0
+}
+quantile {
+  quantile: 0.95
+  value: 22.0
+}
+quantile {
+  quantile: 0.99
+  value: 30.0
+}
+int_values {
+  value: 3
+  count: 10
+}
+int_values {
+  value: 4
+  count: 66
+}
+int_values {
+  value: 5
+  count: 167
+}
+int_values {
+  value: 6
+  count: 388
+}
+int_values {
+  value: 7
+  count: 730
+}
+int_values {
+  value: 8
+  count: 1327
+}
+int_values {
+  value: 9
+  count: 2175
+}
+int_values {
+  value: 10
+  count: 3195
+}
+int_values {
+  value: 11
+  count: 4132
+}
+int_values {
+  value: 12
+  count: 4737
+}
+int_values {
+  value: 13
+  count: 5186
+}
+int_values {
+  value: 14
+  count: 5039
+}
+int_values {
+  value: 15
+  count: 4734
+}
+int_values {
+  value: 16
+  count: 4156
+}
+int_values {
+  value: 17
+  count: 3442
+}
+int_values {
+  value: 18
+  count: 2761
+}
+int_values {
+  value: 19
+  count: 1978
+}
+int_values {
+  value: 20
+  count: 1600
+}
+int_values {
+  value: 21
+  count: 1032
+}
+int_values {
+  value: 22
+  count: 734
+}
+int_values {
+  value: 23
+  count: 544
+}
+int_values {
+  value: 24
+  count: 385
+}
+int_values {
+  value: 25
+  count: 281
+}
+int_values {
+  value: 26
+  count: 244
+}
+int_values {
+  value: 27
+  count: 192
+}
+int_values {
+  value: 28
+  count: 138
+}
+int_values {
+  value: 29
+  count: 123
+}
+int_values {
+  value: 30
+  count: 109
+}
+int_values {
+  value: 31
+  count: 102
+}
+int_values {
+  value: 32
+  count: 65
+}
+int_values {
+  value: 33
+  count: 42
+}
+int_values {
+  value: 34
+  count: 30
+}
+int_values {
+  value: 35
+  count: 37
+}
+int_values {
+  value: 36
+  count: 21
+}
+int_values {
+  value: 37
+  count: 17
+}
+int_values {
+  value: 38
+  count: 13
+}
+int_values {
+  value: 39
+  count: 19
+}
+int_values {
+  value: 40
+  count: 9
+}
+int_values {
+  value: 41
+  count: 7
+}
+int_values {
+  value: 42
+  count: 3
+}
+int_values {
+  value: 43
+  count: 13
+}
+int_values {
+  value: 44
+  count: 4
+}
+int_values {
+  value: 45
+  count: 3
+}
+int_values {
+  value: 46
+  count: 1
+}
+int_values {
+  value: 47
+  count: 5
+}
+int_values {
+  value: 48
+  count: 1
+}
+int_values {
+  value: 51
+  count: 1
+}
+int_values {
+  value: 57
+  count: 1
+}
+int_values {
+  value: 58
+  count: 1
+}

@@ -1,0 +1,436 @@
+description {
+  feature_name: "w_amw"
+  description: "Molecular weight"
+  plot_title: "Molecular weight"
+  line_color: "yellow"
+  source: "chembl"
+}
+minval: 85.07
+maxval: 1338.3
+mean: 411.01532
+median: 391.51
+quantile {
+  quantile: 0.01
+  value: 176.2299
+}
+quantile {
+  quantile: 0.05
+  value: 234.2995
+}
+quantile {
+  quantile: 0.1
+  value: 268.31
+}
+quantile {
+  quantile: 0.5
+  value: 391.51
+}
+quantile {
+  quantile: 0.9
+  value: 564.47
+}
+quantile {
+  quantile: 0.95
+  value: 650.5825
+}
+quantile {
+  quantile: 0.99
+  value: 933.1505
+}
+float_values {
+  value: 85.07
+  count: 12
+}
+float_values {
+  value: 97.6023
+  count: 13
+}
+float_values {
+  value: 110.1346
+  count: 34
+}
+float_values {
+  value: 122.6669
+  count: 41
+}
+float_values {
+  value: 135.1992
+  count: 85
+}
+float_values {
+  value: 147.7315
+  count: 100
+}
+float_values {
+  value: 160.2638
+  count: 165
+}
+float_values {
+  value: 172.7961
+  count: 238
+}
+float_values {
+  value: 185.3284
+  count: 293
+}
+float_values {
+  value: 197.8607
+  count: 417
+}
+float_values {
+  value: 210.393
+  count: 496
+}
+float_values {
+  value: 222.9253
+  count: 682
+}
+float_values {
+  value: 235.4576
+  count: 754
+}
+float_values {
+  value: 247.9899
+  count: 981
+}
+float_values {
+  value: 260.5222
+  count: 1142
+}
+float_values {
+  value: 273.0545
+  count: 1508
+}
+float_values {
+  value: 285.5868
+  count: 1507
+}
+float_values {
+  value: 298.1191
+  count: 1924
+}
+float_values {
+  value: 310.6514
+  count: 2011
+}
+float_values {
+  value: 323.1837
+  count: 2225
+}
+float_values {
+  value: 335.716
+  count: 2344
+}
+float_values {
+  value: 348.2483
+  count: 2409
+}
+float_values {
+  value: 360.7806
+  count: 2249
+}
+float_values {
+  value: 373.3129
+  count: 2346
+}
+float_values {
+  value: 385.8452
+  count: 2135
+}
+float_values {
+  value: 398.3775
+  count: 2211
+}
+float_values {
+  value: 410.9098
+  count: 2158
+}
+float_values {
+  value: 423.4421
+  count: 2123
+}
+float_values {
+  value: 435.9744
+  count: 1874
+}
+float_values {
+  value: 448.5067
+  count: 1749
+}
+float_values {
+  value: 461.039
+  count: 1675
+}
+float_values {
+  value: 473.5713
+  count: 1478
+}
+float_values {
+  value: 486.1036
+  count: 1286
+}
+float_values {
+  value: 498.6359
+  count: 1062
+}
+float_values {
+  value: 511.1682
+  count: 1010
+}
+float_values {
+  value: 523.7005
+  count: 791
+}
+float_values {
+  value: 536.2328
+  count: 750
+}
+float_values {
+  value: 548.7651
+  count: 585
+}
+float_values {
+  value: 561.2974
+  count: 530
+}
+float_values {
+  value: 573.8297
+  count: 480
+}
+float_values {
+  value: 586.362
+  count: 449
+}
+float_values {
+  value: 598.8943
+  count: 346
+}
+float_values {
+  value: 611.4266
+  count: 318
+}
+float_values {
+  value: 623.9589
+  count: 268
+}
+float_values {
+  value: 636.4912
+  count: 224
+}
+float_values {
+  value: 649.0235
+  count: 219
+}
+float_values {
+  value: 661.5558
+  count: 172
+}
+float_values {
+  value: 674.0881
+  count: 154
+}
+float_values {
+  value: 686.6204
+  count: 145
+}
+float_values {
+  value: 699.1527
+  count: 116
+}
+float_values {
+  value: 711.685
+  count: 131
+}
+float_values {
+  value: 724.2173
+  count: 99
+}
+float_values {
+  value: 736.7496
+  count: 114
+}
+float_values {
+  value: 749.2819
+  count: 86
+}
+float_values {
+  value: 761.8142
+  count: 87
+}
+float_values {
+  value: 774.3465
+  count: 77
+}
+float_values {
+  value: 786.8788
+  count: 65
+}
+float_values {
+  value: 799.4111
+  count: 75
+}
+float_values {
+  value: 811.9434
+  count: 54
+}
+float_values {
+  value: 824.4757
+  count: 58
+}
+float_values {
+  value: 837.008
+  count: 59
+}
+float_values {
+  value: 849.5403
+  count: 59
+}
+float_values {
+  value: 862.0726
+  count: 57
+}
+float_values {
+  value: 874.6049
+  count: 37
+}
+float_values {
+  value: 887.1372
+  count: 54
+}
+float_values {
+  value: 899.6695
+  count: 41
+}
+float_values {
+  value: 912.2018
+  count: 43
+}
+float_values {
+  value: 924.7341
+  count: 31
+}
+float_values {
+  value: 937.2664
+  count: 37
+}
+float_values {
+  value: 949.7987
+  count: 39
+}
+float_values {
+  value: 962.331
+  count: 27
+}
+float_values {
+  value: 974.8633
+  count: 25
+}
+float_values {
+  value: 987.3956
+  count: 31
+}
+float_values {
+  value: 999.9279
+  count: 24
+}
+float_values {
+  value: 1012.4602
+  count: 26
+}
+float_values {
+  value: 1024.9926
+  count: 21
+}
+float_values {
+  value: 1037.5248
+  count: 32
+}
+float_values {
+  value: 1050.0571
+  count: 18
+}
+float_values {
+  value: 1062.5894
+  count: 26
+}
+float_values {
+  value: 1075.1217
+  count: 24
+}
+float_values {
+  value: 1087.654
+  count: 13
+}
+float_values {
+  value: 1100.1863
+  count: 9
+}
+float_values {
+  value: 1112.7186
+  count: 18
+}
+float_values {
+  value: 1125.2509
+  count: 19
+}
+float_values {
+  value: 1137.7832
+  count: 9
+}
+float_values {
+  value: 1150.3156
+  count: 22
+}
+float_values {
+  value: 1162.8478
+  count: 8
+}
+float_values {
+  value: 1175.3801
+  count: 16
+}
+float_values {
+  value: 1187.9124
+  count: 9
+}
+float_values {
+  value: 1200.4447
+  count: 8
+}
+float_values {
+  value: 1212.977
+  count: 4
+}
+float_values {
+  value: 1225.5093
+  count: 10
+}
+float_values {
+  value: 1238.0416
+  count: 4
+}
+float_values {
+  value: 1250.5739
+  count: 4
+}
+float_values {
+  value: 1263.1062
+  count: 3
+}
+float_values {
+  value: 1275.6385
+  count: 1
+}
+float_values {
+  value: 1288.1708
+}
+float_values {
+  value: 1300.7031
+}
+float_values {
+  value: 1313.2354
+}
+float_values {
+  value: 1325.7677
+  count: 2
+}

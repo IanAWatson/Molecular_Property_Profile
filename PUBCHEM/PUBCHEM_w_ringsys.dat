@@ -1,0 +1,64 @@
+description {
+  feature_name: "w_ringsys"
+  description: "Number of ring systems"
+  plot_title: "Number of ring systems"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 6.0
+mean: 2.45438
+median: 2.0
+quantile {
+  quantile: 0.01
+}
+quantile {
+  quantile: 0.05
+  value: 1.0
+}
+quantile {
+  quantile: 0.1
+  value: 1.0
+}
+quantile {
+  quantile: 0.5
+  value: 2.0
+}
+quantile {
+  quantile: 0.9
+  value: 4.0
+}
+quantile {
+  quantile: 0.95
+  value: 4.0
+}
+quantile {
+  quantile: 0.99
+  value: 5.0
+}
+int_values {
+  count: 1057
+}
+int_values {
+  value: 1
+  count: 6060
+}
+int_values {
+  value: 2
+  count: 18899
+}
+int_values {
+  value: 3
+  count: 17688
+}
+int_values {
+  value: 4
+  count: 5703
+}
+int_values {
+  value: 5
+  count: 573
+}
+int_values {
+  value: 6
+  count: 20
+}

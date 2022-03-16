@@ -1,0 +1,371 @@
+description {
+  feature_name: "w_natoms"
+  description: "Number of heavy atoms"
+  plot_title: "Number of heavy atoms"
+  line_color: "yellow"
+  source: "chembl"
+}
+minval: 6.0
+maxval: 88.0
+mean: 29.09508
+median: 28.0
+quantile {
+  quantile: 0.01
+  value: 12.0
+}
+quantile {
+  quantile: 0.05
+  value: 16.0
+}
+quantile {
+  quantile: 0.1
+  value: 19.0
+}
+quantile {
+  quantile: 0.5
+  value: 28.0
+}
+quantile {
+  quantile: 0.9
+  value: 40.0
+}
+quantile {
+  quantile: 0.95
+  value: 46.0
+}
+quantile {
+  quantile: 0.99
+  value: 67.0
+}
+int_values {
+  value: 6
+  count: 13
+}
+int_values {
+  value: 7
+  count: 21
+}
+int_values {
+  value: 8
+  count: 42
+}
+int_values {
+  value: 9
+  count: 62
+}
+int_values {
+  value: 10
+  count: 106
+}
+int_values {
+  value: 11
+  count: 139
+}
+int_values {
+  value: 12
+  count: 215
+}
+int_values {
+  value: 13
+  count: 300
+}
+int_values {
+  value: 14
+  count: 424
+}
+int_values {
+  value: 15
+  count: 537
+}
+int_values {
+  value: 16
+  count: 682
+}
+int_values {
+  value: 17
+  count: 936
+}
+int_values {
+  value: 18
+  count: 1118
+}
+int_values {
+  value: 19
+  count: 1358
+}
+int_values {
+  value: 20
+  count: 1729
+}
+int_values {
+  value: 21
+  count: 1899
+}
+int_values {
+  value: 22
+  count: 2157
+}
+int_values {
+  value: 23
+  count: 2354
+}
+int_values {
+  value: 24
+  count: 2583
+}
+int_values {
+  value: 25
+  count: 2694
+}
+int_values {
+  value: 26
+  count: 2654
+}
+int_values {
+  value: 27
+  count: 2552
+}
+int_values {
+  value: 28
+  count: 2513
+}
+int_values {
+  value: 29
+  count: 2422
+}
+int_values {
+  value: 30
+  count: 2260
+}
+int_values {
+  value: 31
+  count: 2174
+}
+int_values {
+  value: 32
+  count: 2002
+}
+int_values {
+  value: 33
+  count: 1832
+}
+int_values {
+  value: 34
+  count: 1565
+}
+int_values {
+  value: 35
+  count: 1420
+}
+int_values {
+  value: 36
+  count: 1267
+}
+int_values {
+  value: 37
+  count: 1029
+}
+int_values {
+  value: 38
+  count: 919
+}
+int_values {
+  value: 39
+  count: 693
+}
+int_values {
+  value: 40
+  count: 566
+}
+int_values {
+  value: 41
+  count: 526
+}
+int_values {
+  value: 42
+  count: 482
+}
+int_values {
+  value: 43
+  count: 399
+}
+int_values {
+  value: 44
+  count: 330
+}
+int_values {
+  value: 45
+  count: 310
+}
+int_values {
+  value: 46
+  count: 241
+}
+int_values {
+  value: 47
+  count: 211
+}
+int_values {
+  value: 48
+  count: 196
+}
+int_values {
+  value: 49
+  count: 146
+}
+int_values {
+  value: 50
+  count: 141
+}
+int_values {
+  value: 51
+  count: 144
+}
+int_values {
+  value: 52
+  count: 116
+}
+int_values {
+  value: 53
+  count: 99
+}
+int_values {
+  value: 54
+  count: 125
+}
+int_values {
+  value: 55
+  count: 92
+}
+int_values {
+  value: 56
+  count: 79
+}
+int_values {
+  value: 57
+  count: 69
+}
+int_values {
+  value: 58
+  count: 66
+}
+int_values {
+  value: 59
+  count: 58
+}
+int_values {
+  value: 60
+  count: 77
+}
+int_values {
+  value: 61
+  count: 67
+}
+int_values {
+  value: 62
+  count: 66
+}
+int_values {
+  value: 63
+  count: 53
+}
+int_values {
+  value: 64
+  count: 50
+}
+int_values {
+  value: 65
+  count: 49
+}
+int_values {
+  value: 66
+  count: 47
+}
+int_values {
+  value: 67
+  count: 35
+}
+int_values {
+  value: 68
+  count: 52
+}
+int_values {
+  value: 69
+  count: 42
+}
+int_values {
+  value: 70
+  count: 40
+}
+int_values {
+  value: 71
+  count: 31
+}
+int_values {
+  value: 72
+  count: 25
+}
+int_values {
+  value: 73
+  count: 29
+}
+int_values {
+  value: 74
+  count: 28
+}
+int_values {
+  value: 75
+  count: 24
+}
+int_values {
+  value: 76
+  count: 22
+}
+int_values {
+  value: 77
+  count: 23
+}
+int_values {
+  value: 78
+  count: 16
+}
+int_values {
+  value: 79
+  count: 11
+}
+int_values {
+  value: 80
+  count: 28
+}
+int_values {
+  value: 81
+  count: 14
+}
+int_values {
+  value: 82
+  count: 18
+}
+int_values {
+  value: 83
+  count: 15
+}
+int_values {
+  value: 84
+  count: 19
+}
+int_values {
+  value: 85
+  count: 17
+}
+int_values {
+  value: 86
+  count: 18
+}
+int_values {
+  value: 87
+  count: 6
+}
+int_values {
+  value: 88
+  count: 11
+}
