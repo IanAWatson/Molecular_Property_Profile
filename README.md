@@ -168,6 +168,6 @@ plots will be written to .png files.
 
 A typical plot might look like
 
-![natoms](https://github.com/ianwatson/Molecular_Property_Profile/images/demo_natoms.png)
+![natoms](https://github.com/ianwatson/Molecular_Property_Profile/Images/demo_natoms.png)
 
 which shows differing heavy atom counts across three different collections.
