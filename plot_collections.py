@@ -263,7 +263,7 @@ def float_plot(options: Options,
     c = np.zeros(nvalues)
     for vc in proto.float_values:
       ndx = round((vc.value - min_value) / dx)
-      c[ndx] = vc.count
+      c[ndx] += vc.count
     counts.append(c)
 
   plts  = []
