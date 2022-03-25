@@ -256,3 +256,9 @@ feature_to_description {
     description: "Max distance between atoms in partial symmetry relations"
   }
 }
+feature_to_description {
+  key: "w_nvrtspsa"
+  value {
+    description: "Topological total polar surface area from Novartis"
+  }
+}

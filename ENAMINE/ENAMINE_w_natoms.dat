@@ -3,7 +3,7 @@ description {
   description: "Number of heavy atoms"
   plot_title: "Number of heavy atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 5.0
 maxval: 46.0

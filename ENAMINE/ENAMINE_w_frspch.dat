@@ -3,7 +3,7 @@ description {
   description: "Fraction of atoms that in substituent groups"
   plot_title: "Fraction of atoms that in substituent groups"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 1.0
 mean: 0.19757248

@@ -3,7 +3,7 @@ description {
   description: "Longest topological distance"
   plot_title: "Longest topological distance"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 3.0
 maxval: 25.0

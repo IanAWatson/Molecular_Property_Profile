@@ -3,7 +3,7 @@ description {
   description: "Number of aromatic heteroatoms"
   plot_title: "Number of aromatic heteroatoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 9.0
 mean: 1.68898

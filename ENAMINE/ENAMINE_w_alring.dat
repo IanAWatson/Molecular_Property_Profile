@@ -3,7 +3,7 @@ description {
   description: "Number of aliphatic rings"
   plot_title: "Number of aliphatic rings"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 6.0
 mean: 0.75302

@@ -3,7 +3,7 @@ description {
   description: "Number of symmetric atoms"
   plot_title: "Number of symmetric atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 38.0
 mean: 4.4587

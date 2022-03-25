@@ -3,7 +3,7 @@ description {
   description: "Fraction of atoms with 1 connection"
   plot_title: "Fraction of atoms with 1 connection"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 0.7
 mean: 0.1719041

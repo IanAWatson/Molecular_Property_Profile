@@ -3,7 +3,7 @@ description {
   description: "Fraction of atoms with 4 connections"
   plot_title: "Fraction of atoms with 4 connections"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 0.2667
 mean: 0.013941632

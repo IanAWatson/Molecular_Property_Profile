@@ -3,7 +3,7 @@ description {
   description: "Fraction of atoms that are not carbon"
   plot_title: "Fraction of atoms that are not carbon"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 0.05263
 maxval: 0.75

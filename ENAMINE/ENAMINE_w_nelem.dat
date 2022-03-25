@@ -3,7 +3,7 @@ description {
   description: "Number of different elements"
   plot_title: "Number of different elements"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 3.0
 maxval: 8.0

@@ -3,7 +3,7 @@ description {
   description: "Number of atoms with 2 connections"
   plot_title: "Number of atoms with 2 connections"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 27.0
 mean: 12.65534

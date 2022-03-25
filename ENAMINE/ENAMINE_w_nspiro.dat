@@ -3,7 +3,7 @@ description {
   description: "Number of spiro fused atoms"
   plot_title: "Number of spiro fused atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 2.0
 mean: 0.01298

@@ -3,7 +3,7 @@ description {
   description: "Max distance between any two rings"
   plot_title: "Max distance between any two rings"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 25.0
 mean: 11.19354

@@ -3,7 +3,7 @@ description {
   description: "Number of halogen atoms"
   plot_title: "Number of halogen atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 10.0
 mean: 0.56772

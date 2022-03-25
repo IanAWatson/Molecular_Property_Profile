@@ -3,7 +3,7 @@ description {
   description: "Longest separation between symmetric atoms"
   plot_title: "Longest separation between symmetric atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 24.0
 mean: 1.7119

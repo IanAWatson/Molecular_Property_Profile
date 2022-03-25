@@ -1,0 +1,427 @@
+description {
+  feature_name: "w_nvrtspsa"
+  description: "Topological total polar surface area from Novartis"
+  plot_title: "Topological total polar surface area from Novartis"
+  line_color: "green"
+  source: "pubchem"
+}
+maxval: 351.34
+mean: 83.25722
+median: 81.645
+quantile {
+  quantile: 0.01
+  value: 9.23
+}
+quantile {
+  quantile: 0.05
+  value: 28.15
+}
+quantile {
+  quantile: 0.1
+  value: 38.33
+}
+quantile {
+  quantile: 0.5
+  value: 81.645
+}
+quantile {
+  quantile: 0.9
+  value: 128.701
+}
+quantile {
+  quantile: 0.95
+  value: 143.6605
+}
+quantile {
+  quantile: 0.99
+  value: 175.9005
+}
+float_values {
+  count: 327
+}
+float_values {
+  value: 3.5134
+  count: 102
+}
+float_values {
+  value: 7.0268
+  count: 122
+}
+float_values {
+  value: 10.5402
+  count: 224
+}
+float_values {
+  value: 14.0536
+  count: 276
+}
+float_values {
+  value: 17.567
+  count: 393
+}
+float_values {
+  value: 21.0804
+  count: 456
+}
+float_values {
+  value: 24.5938
+  count: 598
+}
+float_values {
+  value: 28.1072
+  count: 817
+}
+float_values {
+  value: 31.6206
+  count: 706
+}
+float_values {
+  value: 35.134
+  count: 1103
+}
+float_values {
+  value: 38.6474
+  count: 1101
+}
+float_values {
+  value: 42.1608
+  count: 921
+}
+float_values {
+  value: 45.6742
+  count: 1133
+}
+float_values {
+  value: 49.1876
+  count: 1636
+}
+float_values {
+  value: 52.701
+  count: 1577
+}
+float_values {
+  value: 56.2144
+  count: 1649
+}
+float_values {
+  value: 59.7278
+  count: 1459
+}
+float_values {
+  value: 63.2412
+  count: 1759
+}
+float_values {
+  value: 66.7546
+  count: 2152
+}
+float_values {
+  value: 70.268
+  count: 1742
+}
+float_values {
+  value: 73.7814
+  count: 2171
+}
+float_values {
+  value: 77.2948
+  count: 2141
+}
+float_values {
+  value: 80.8082
+  count: 2157
+}
+float_values {
+  value: 84.3216
+  count: 1988
+}
+float_values {
+  value: 87.835
+  count: 1710
+}
+float_values {
+  value: 91.3484
+  count: 1934
+}
+float_values {
+  value: 94.8618
+  count: 1876
+}
+float_values {
+  value: 98.3752
+  count: 1644
+}
+float_values {
+  value: 101.8886
+  count: 1554
+}
+float_values {
+  value: 105.402
+  count: 1442
+}
+float_values {
+  value: 108.9154
+  count: 1354
+}
+float_values {
+  value: 112.4288
+  count: 1289
+}
+float_values {
+  value: 115.9422
+  count: 1082
+}
+float_values {
+  value: 119.4556
+  count: 952
+}
+float_values {
+  value: 122.969
+  count: 924
+}
+float_values {
+  value: 126.4824
+  count: 838
+}
+float_values {
+  value: 129.9958
+  count: 695
+}
+float_values {
+  value: 133.5092
+  count: 588
+}
+float_values {
+  value: 137.0226
+  count: 502
+}
+float_values {
+  value: 140.536
+  count: 457
+}
+float_values {
+  value: 144.0494
+  count: 402
+}
+float_values {
+  value: 147.5628
+  count: 320
+}
+float_values {
+  value: 151.0762
+  count: 275
+}
+float_values {
+  value: 154.5896
+  count: 234
+}
+float_values {
+  value: 158.103
+  count: 186
+}
+float_values {
+  value: 161.6164
+  count: 165
+}
+float_values {
+  value: 165.1298
+  count: 132
+}
+float_values {
+  value: 168.6432
+  count: 128
+}
+float_values {
+  value: 172.1566
+  count: 100
+}
+float_values {
+  value: 175.67
+  count: 74
+}
+float_values {
+  value: 179.1834
+  count: 77
+}
+float_values {
+  value: 182.6968
+  count: 48
+}
+float_values {
+  value: 186.2102
+  count: 45
+}
+float_values {
+  value: 189.7236
+  count: 24
+}
+float_values {
+  value: 193.237
+  count: 27
+}
+float_values {
+  value: 196.7504
+  count: 19
+}
+float_values {
+  value: 200.2638
+  count: 18
+}
+float_values {
+  value: 203.7772
+  count: 22
+}
+float_values {
+  value: 207.2906
+  count: 19
+}
+float_values {
+  value: 210.804
+  count: 16
+}
+float_values {
+  value: 214.3174
+  count: 14
+}
+float_values {
+  value: 217.8308
+  count: 11
+}
+float_values {
+  value: 221.3442
+  count: 8
+}
+float_values {
+  value: 224.8576
+  count: 11
+}
+float_values {
+  value: 228.371
+  count: 7
+}
+float_values {
+  value: 231.8844
+  count: 9
+}
+float_values {
+  value: 235.3978
+  count: 9
+}
+float_values {
+  value: 238.9112
+  count: 1
+}
+float_values {
+  value: 242.4246
+  count: 4
+}
+float_values {
+  value: 245.938
+}
+float_values {
+  value: 249.4514
+  count: 5
+}
+float_values {
+  value: 252.9648
+  count: 4
+}
+float_values {
+  value: 256.4782
+  count: 6
+}
+float_values {
+  value: 259.9916
+  count: 1
+}
+float_values {
+  value: 263.505
+}
+float_values {
+  value: 267.0184
+  count: 1
+}
+float_values {
+  value: 270.5318
+  count: 4
+}
+float_values {
+  value: 274.0452
+  count: 3
+}
+float_values {
+  value: 277.5586
+  count: 1
+}
+float_values {
+  value: 281.072
+  count: 3
+}
+float_values {
+  value: 284.5854
+  count: 4
+}
+float_values {
+  value: 288.0988
+  count: 1
+}
+float_values {
+  value: 291.6122
+}
+float_values {
+  value: 295.1256
+  count: 1
+}
+float_values {
+  value: 298.639
+  count: 1
+}
+float_values {
+  value: 302.1524
+  count: 2
+}
+float_values {
+  value: 305.6658
+  count: 1
+}
+float_values {
+  value: 309.1792
+}
+float_values {
+  value: 312.6926
+  count: 1
+}
+float_values {
+  value: 316.206
+}
+float_values {
+  value: 319.7194
+  count: 1
+}
+float_values {
+  value: 323.2328
+}
+float_values {
+  value: 326.7462
+  count: 2
+}
+float_values {
+  value: 330.2596
+  count: 1
+}
+float_values {
+  value: 333.773
+}
+float_values {
+  value: 337.2864
+}
+float_values {
+  value: 340.7998
+}
+float_values {
+  value: 344.3132
+}
+float_values {
+  value: 347.8266
+  count: 1
+}

@@ -3,7 +3,7 @@ description {
   description: "Number of aromatic atoms"
   plot_title: "Number of aromatic atoms"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 33.0
 mean: 11.90262

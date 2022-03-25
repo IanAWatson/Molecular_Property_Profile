@@ -3,7 +3,7 @@ description {
   description: "Average connectivity"
   plot_title: "Average connectivity"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 1.6
 maxval: 2.571

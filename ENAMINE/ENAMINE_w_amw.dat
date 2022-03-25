@@ -3,7 +3,7 @@ description {
   description: "Molecular weight"
   plot_title: "Molecular weight"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 minval: 74.08
 maxval: 635.84

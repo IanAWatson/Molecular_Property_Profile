@@ -3,7 +3,7 @@ description {
   description: "Fraction of all atoms that are CSP3"
   plot_title: "Fraction of all atoms that are CSP3"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 0.9091
 mean: 0.25002226

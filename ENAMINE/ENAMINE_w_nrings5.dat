@@ -3,7 +3,7 @@ description {
   description: "Number of 5 membered rings"
   plot_title: "Number of 5 membered rings"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 5.0
 mean: 0.9088

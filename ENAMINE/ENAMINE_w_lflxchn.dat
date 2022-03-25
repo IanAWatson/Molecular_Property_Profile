@@ -3,7 +3,7 @@ description {
   description: "Length of longest flexible chain"
   plot_title: "Length of longest flexible chain"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 12.0
 mean: 1.7226

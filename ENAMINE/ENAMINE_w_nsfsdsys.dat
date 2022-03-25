@@ -3,7 +3,7 @@ description {
   description: "Number of strongly fused (cage) ring systems"
   plot_title: "Number of strongly fused (cage) ring systems"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 2.0
 mean: 0.00956

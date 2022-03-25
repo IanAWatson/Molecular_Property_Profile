@@ -3,7 +3,7 @@ description {
   description: "Number of aromatic rings"
   plot_title: "Number of aromatic rings"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 6.0
 mean: 2.17392

@@ -3,7 +3,7 @@ description {
   description: "Fraction of atoms that are aromatic"
   plot_title: "Fraction of atoms that are aromatic"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 1.0
 mean: 0.48209083

@@ -1,9 +1,9 @@
 description {
   feature_name: "w_maxpsymd"
-  description: "Max distance between atoms in partial symmetri relations"
-  plot_title: "Max distance between atoms in partial symmetri relations"
+  description: "Max distance between atoms in partial symmetry relations"
+  plot_title: "Max distance between atoms in partial symmetry relations"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 11.0
 mean: 3.57212

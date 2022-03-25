@@ -3,7 +3,7 @@ description {
   description: "Number of rings"
   plot_title: "Number of rings"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 7.0
 mean: 2.92694

@@ -1,7 +1,7 @@
 description {
   feature_name: "w_intrnlrng"
-  description: "Number of chain atoms between rings"
-  plot_title: "Number of chain atoms between rings"
+  description: "Number of internal (non terminal) rings"
+  plot_title: "Number of internal (non terminal) rings"
   line_color: "yellow"
   source: "chembl"
 }

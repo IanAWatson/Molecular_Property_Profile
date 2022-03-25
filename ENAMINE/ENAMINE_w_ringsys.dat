@@ -3,7 +3,7 @@ description {
   description: "Number of ring systems"
   plot_title: "Number of ring systems"
   line_color: "lightblue"
-  source: "enamine"
+  source: "enamime"
 }
 maxval: 6.0
 mean: 2.50362
