@@ -14,6 +14,7 @@ a png file will be created instead.
 """
 
 from dataclasses import dataclass
+from dataclasses import field
 import sys
 from typing import List, Tuple
 
@@ -24,10 +25,8 @@ from absl import logging
 from google.protobuf import text_format
 
 import matplotlib.pyplot as plt
-from matplotlib.pyplot import figure
 
 import numpy as np
-import pandas as pd
 
 import collection_pb2
 
@@ -35,6 +34,7 @@ FLAGS = flags.FLAGS
 
 flags.DEFINE_list("collection", [], "list of collections to plot (stems from generate_profile)")
 flags.DEFINE_string("feature_description", "", "File containing feature descriptions")
+flags.DEFINE_list("color", [], "Color for each collection")
 flags.DEFINE_string("stem", "", "name stem for .png files")
 flags.DEFINE_float('X', 0.0, "Figure size (X) for .png output")
 flags.DEFINE_float('Y', 0.0, "Figure size (Y) for .png output")
@@ -42,32 +42,59 @@ flags.DEFINE_float('xmin', -1.0, "manually set lower limit")
 flags.DEFINE_float('xmax', -1.0, "manually set upper limit")
 flags.DEFINE_float('width', 0.0, 'Width of bars in bar plots')
 flags.DEFINE_float('quantile', 0.0, 'Truncate plots to the <quantile> quantile')
+flags.DEFINE_string('legend', None, 'File for legends\n')
 flags.DEFINE_boolean('verbose', False, "verbose output")
 
 @dataclass
 class Options:
-    verbose: bool = False
+  """Options controlling generation of plots."""
+  verbose: bool = False
 
-    # The file name of plots generated
-    stem: str = ""
+  # The file name of plots generated
+  stem: str = ""
 
-    # Plot dimensions in inches. Both must be set in order
-    # to have any effect
-    x: int = 0
-    y: int = 0;
+  # Plot dimensions in inches. Both must be set in order
+  # to have any effect
+  x: int = 0
+  y: int = 0
 
-    # Manually specify the x range of the plot
-    xmin: float = 0.0
-    xmax: float = 0.0
+  # Manually specify the x range of the plot
+  xmin: float = 0.0
+  xmax: float = 0.0
 
-    # For bar plots, manually set the width
-    width: int = 0
+  # For bar plots, manually set the width
+  width: int = 0
 
-    # Truncate plots to a given quantile
-    quantile: float = 0.0
+  # Truncate plots to a given quantile
+  quantile: float = 0.0
+
+  # We can optionally write the legends to a file
+  stream_for_legends = None
+
+  # The color assigned to each collection can be over-ridden on the
+  # command line
+  color: List[str] = field(default_factory=lambda: '')
 
 def usage(ret):
   sys.exit(ret)
+
+def get_color(options: Options, protos: List[collection_pb2.Descriptor], ndx: int) -> str:
+  """Return the color for collection `ndx`.
+
+  If colors have been specified in `options.color` use that.
+  Otherwise use the color in protos[ndx]
+  Args:
+    options:
+    protos: list of collection protos
+    ndx: the collection number
+  Returns:
+    the color as a string
+  """
+  if len(options.color) > 0:
+    return options.color[ndx]
+
+  return protos[ndx].description.line_color
+
 
 def shrink_to_quantile(quantile: float,
                        x: np.array,
@@ -101,20 +128,19 @@ def shrink_to_quantile(quantile: float,
       break
 
   right = len(totals)
-  sum = 0
+  tot = 0
   for i in range(len(totals)):
     j = len(totals) - i - 1
-    sum += totals[j]
-    if sum >= points_needed:
+    tot += totals[j]
+    if tot >= points_needed:
       right = j
       break
 
   if left == 0 and right == npoints - 1:
     return (x, counts)
-  
+
   print(f"npoints {npoints} left {left} right {right}")
   newx = x[left:right + 1]
-  new_npoints = right - left + 1
   new_counts = []
   for c in counts:
     new_counts.append(c[left:right + 1])
@@ -123,15 +149,15 @@ def shrink_to_quantile(quantile: float,
 
 def get_width(protos: List[collection_pb2.Descriptor],
                options: Options) -> float:
-   """Return the width to be used for bar plots.
+  """Return the width to be used for bar plots.
 
-   Args:
-   Returns:
-   """
-   if options.width > 0:
-     return options.width
+  Args:
+  Returns:
+  """
+  if options.width > 0:
+    return options.width
 
-   return 0.9 * 1.0 / len(protos)
+  return 0.9 * 1.0 / len(protos)
 
 def make_legend(proto: collection_pb2.Descriptor) -> str:
   """Generate a legend for the feature in `proto`
@@ -170,16 +196,12 @@ def get_range(protos: List[collection_pb2.Descriptor]) -> Tuple:
   return (min_value, max_value)
 
 def int_plot(options: Options,
-             protos: List,
-             carray: List[np.array],
-             varray: List[np.array]) -> None:
+             protos: List[collection_pb2.Descriptor]) -> None:
   """Generate a plot of integer data
 
   Args:
     options: options controlling behaviour
     protos: Descriptor protos
-    carray: List of arrays of values extracted from `protos`
-    varray: List of arrays of counts extracted from `protos`
   """
   (min_value, max_value) = get_range(protos)
 
@@ -192,9 +214,9 @@ def int_plot(options: Options,
   counts = []
   for proto in protos:
     c = np.zeros(nvalues)
-    for vc in proto.int_values:
-      ndx = round(vc.value - min_value)
-      c[ndx] = vc.count
+    for value_count in proto.int_values:
+      ndx = round(value_count.value - min_value)
+      c[ndx] = value_count.count
     counts.append(c)
 
   if options.quantile > 0.0:
@@ -204,17 +226,22 @@ def int_plot(options: Options,
   width = get_width(protos, options)
   for (i, c) in enumerate(counts):
     normed = c / np.linalg.norm(c, ord=1)
-    b = plt.bar(x + width * i, normed, width,  color=protos[i].description.line_color)
+    b = plt.bar(x + width * i, normed, width,
+                color=get_color(options, protos, i))
 #   b.set_label(protos[i].description.source)
-    b.set_label(make_legend(protos[i]))
+    legend = make_legend(protos[i])
+    b.set_label(legend)
+    if options.stream_for_legends is not None:
+      print(f'{protos[i].description.feature_name} {legend} {protos[i].description.description}',
+            file=options.stream_for_legends)
     bars.append(b)
 
   ymax = plt.gca().get_ylim()[1]
-  for proto in protos:
+  for (i, proto) in enumerate(protos):
     mean = proto.mean
     x = [mean, mean]
     y = [0.95 * ymax, 0.99 * ymax]
-    plt.plot(x, y, color=proto.description.line_color)
+    plt.plot(x, y, color=get_color(options, protos, i))
 
   if options.xmin >= 0.0 and options.xmax > options.xmin:
     plt.xlim(options.xmin, options.xmax)
@@ -239,16 +266,12 @@ def int_plot(options: Options,
 
 
 def float_plot(options: Options,
-               protos: List,
-               carray: List[np.array],
-               varray: List[np.array]) -> None:
+               protos: List[collection_pb2.Descriptor]) -> None:
   """Generate a plot of float data
 
   Args:
     options: options controlling behaviour
     protos: Descriptor protos
-    carray: List of arrays of values extracted from `protos`
-    varray: List of arrays of counts extracted from `protos`
   """
   (min_value, max_value) = get_range(protos)
   logging.info("Range %r to %r", min_value, max_value)
@@ -258,29 +281,28 @@ def float_plot(options: Options,
   x = np.arange(min_value, max_value + dx, dx)
   nvalues = len(x)
   counts = []
-  df = pd.DataFrame()
   for proto in protos:
     c = np.zeros(nvalues)
-    for vc in proto.float_values:
-      ndx = round((vc.value - min_value) / dx)
-      c[ndx] += vc.count
+    for value_count in proto.float_values:
+      ndx = round((value_count.value - min_value) / dx)
+      c[ndx] += value_count.count
     counts.append(c)
 
   plts  = []
 
   for (i, c) in enumerate(counts):
     normed = c / np.linalg.norm(c, ord=1)
-    p = plt.plot(x, normed, color=protos[i].description.line_color,
+    p = plt.plot(x, normed, color=get_color(options, protos, i),
                  label=make_legend(protos[i]),
                  linewidth = 2 if i == 0 else 1)
     plts.append(p)
 
   ymax = plt.gca().get_ylim()[1]
-  for proto in protos:
+  for (i, proto) in enumerate(protos):
     mean = proto.mean
     x = [mean, mean]
     y = [0.0, 0.04 * ymax]
-    plt.plot(x, y, color=proto.description.line_color)
+    plt.plot(x, y, color=get_color(options, protos, i))
 
   if options.xmin >= 0.0 and options.xmax > options.xmin:
     plt.xlim(options.xmin, options.xmax)
@@ -302,56 +324,31 @@ def float_plot(options: Options,
   fig.savefig(fname, dpi=200)
   plt.close()
 
-def value_counts_to_arrays(from_proto) -> List[np.array]:
-  """Convert the Int/Float ValueCount data `from_proto` to np arrays.
-
-  Args:
-    from_proto: source of data. Will be either IntValueCount or FloatValueCount
-  Returns
-    Two np arrays, one with the values, the other with counts.
-  """
-  n = len(from_proto)
-  value = np.zeros(n)
-  count = np.zeros(n)
-  for i in range(n):
-    vc = from_proto[i]
-    value[i] = vc.value
-    count[i] = vc.count
-
-  return (value, count)
-
 def do_plots(options: Options,
-             protos:List) -> None:
+             protos:List[collection_pb2.Descriptor]) -> None:
   """Generate property profile plots from `protos`.
 
+  Basically just decides if this is integer data or float and branches.
   Args:
     options:
     protos:
-    name_stem:
   Returns:
   """
-  varray:List[np.array] = []
-  carray:List[np.array] = []
   is_int = 0
   for proto in protos:
     if len(proto.int_values) > 0:
-      (value, count) = value_counts_to_arrays(proto.int_values)
       is_int += 1
-    else:
-      (value, count) = value_counts_to_arrays(proto.float_values)
-    varray.append(value)
-    carray.append(count)
 
   if is_int > 0:
-    return int_plot(options, protos, varray, carray)
+    int_plot(options, protos)
   else:
-    return float_plot(options, protos, varray, carray)
+    float_plot(options, protos)
 
 def process_group_of_files(options: Options,
                            collections:List[str],
                            feature_name: str,
-                           feature_description: str):
-  """Generate a plot for `feature` across `collections`.
+                           feature_description: str)->None:
+  """Generate a plot for `feature_name` across `collections`.
 
   Relies on a standardised naming scheme for the proto files,
   <collection>_<feature>.dat
@@ -371,7 +368,7 @@ def process_group_of_files(options: Options,
 
     proto = text_format.Parse('\n'.join(file_contents), collection_pb2.Descriptor())
     if feature_name != proto.description.feature_name:
-      raise f"Feature mismatch in #{fname}, should be {feature}"
+      raise f"Feature mismatch in #{feature_name}, should be {proto.description.feature_name}"
     protos.append(proto)
 
   if options.verbose:
@@ -422,6 +419,13 @@ def plot_profiles(args):
   options.xmax = FLAGS.xmax
   options.width = FLAGS.width
   options.quantile = FLAGS.quantile
+  if FLAGS.legend is not None:
+    options.stream_for_legends = open(FLAGS.legend, 'w')
+
+  # Note there is no checking of the length of the color
+  # array with the number of collections.
+  if len(FLAGS.color) > 0:
+    options.color = FLAGS.color
 
   # There are two ways in which we can make plots.
   # Files on the command line, plotting one feature.
@@ -439,7 +443,6 @@ def plot_profiles(args):
       logging.error("Must specify at least two protos to plot")
       usage(1)
     process_files_from_cmdline(options, args)
-
 
 if __name__ == "__main__":
   app.run(plot_profiles)
