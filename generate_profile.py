@@ -223,7 +223,7 @@ def generate_profile(args):
   if len(collection_color) == 0:
     collection_color = 'black'
 
-  data = pd.read_csv(args[1], header=0, sep=sep)
+  data = pd.read_csv(args[1], header=0, sep=sep, na_values=['.'])
   #data.set_index("Name", drop=True, inplace=True)
   if verbose:
     logging.info("Read dataframe with %d rows and %d columns", len(data), len(data.columns))

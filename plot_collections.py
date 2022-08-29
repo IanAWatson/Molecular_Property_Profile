@@ -278,6 +278,7 @@ def float_plot(options: Options,
 
   # Each set will be aligned with this as the X axis
   dx = (max_value - min_value) / 50.0
+  print(f'{min_value} to {max_value} dx {dx}')
   x = np.arange(min_value, max_value + dx, dx)
   nvalues = len(x)
   counts = []
